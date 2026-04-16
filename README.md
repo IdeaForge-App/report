@@ -1,1 +1,136 @@
-# report
+# Capítulo I: Introducción
+
+<h2 id="11-startup-profile">1.1 Startup Profile</h2>
+
+<h3 id="111-descripción-de-la-startup">1.1.1 Descripción de la Startup</h3>
+
+<p>IdeaForge es una startup de base tecnológica conformada por estudiantes de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC). Surge con el propósito de facilitar la conexión entre personas con ideas de proyectos y personas interesadas en contribuir a su desarrollo según sus habilidades, roles o intereses.
+
+La propuesta de IdeaForge se centra en crear un espacio digital donde emprendedores, estudiantes y creativos puedan publicar ideas en etapa temprana y encontrar posibles colaboradores para construirlas de manera conjunta. A diferencia de otras plataformas enfocadas en la búsqueda de empleo, networking profesional o contratación de servicios, IdeaForge busca promover la formación de equipos alrededor de ideas con potencial de desarrollo.
+
+Nuestra iniciativa parte de la necesidad de reducir una barrera frecuente en los procesos de creación de proyectos: la dificultad para encontrar personas compatibles que compartan interés, motivación y capacidades complementarias. En ese sentido, IdeaForge busca facilitar conexiones más relevantes y orientadas a la colaboración desde etapas iniciales.
+
+Como startup, nos enfocamos en una propuesta que combina tecnología, colaboración e innovación, con la intención de ofrecer una experiencia accesible y útil para quienes desean transformar una idea en un proyecto real mediante el trabajo en equipo.
+
+A largo plazo, IdeaForge aspira a consolidarse como una plataforma de referencia para la formación de equipos interdisciplinarios alrededor de ideas, promoviendo la colaboración entre personas con distintas capacidades y fomentando el desarrollo de proyectos con mayor posibilidad de ejecución.</p>
+
+<h3 id="112-perfiles-de-integrantes-del-equipo">1.1.2 Perfiles de integrantes del equipo</h3>
+
+<p><strong>Esta sección no se modifica, según indicación del equipo.</strong></p>
+
+<h2 id="12-solution-profile">1.2 Solution Profile</h2>
+
+<h3 id="121-nombre-del-producto">1.2.1 Nombre del producto</h3>
+
+<p>El producto de software que desarrollaremos como startup es <strong>IdeaForge</strong>.</p>
+
+<h3 id="122-antecedentes-y-problemática">1.2.2 Antecedentes y problemática</h3>
+
+<h4>Antecedentes</h4>
+
+<p>En la actualidad, muchas personas cuentan con ideas de proyectos, emprendimientos o iniciativas colaborativas, pero no logran llevarlas a la práctica debido a la falta de un equipo adecuado. En numerosos casos, una persona puede tener la motivación, la visión del proyecto o conocimientos en un área específica, pero no dispone de los perfiles complementarios necesarios para diseñar, desarrollar, validar o impulsar la idea.
+
+Aunque existen redes sociales, comunidades virtuales y plataformas profesionales orientadas al networking o a la búsqueda de empleo, estas no están centradas específicamente en la formación de equipos alrededor de ideas en etapa temprana. Como resultado, muchas ideas quedan detenidas o abandonadas antes de convertirse en proyectos reales, no por falta de interés, sino por la ausencia de conexiones adecuadas entre personas con capacidades complementarias.
+
+En este contexto, IdeaForge surge como una propuesta que busca cubrir esa necesidad, ofreciendo un espacio digital donde los usuarios puedan publicar ideas y encontrar personas que quieran sumarse a ellas según sus roles, habilidades o intereses. La finalidad es facilitar la creación de equipos desde una etapa inicial, promoviendo la colaboración y aumentando las posibilidades de que una idea avance hacia su ejecución.</p>
+
+<h4>Problemática (5W 2H)</h4>
+
+#### **Who (¿Quién?)**
+
+El problema afecta principalmente a emprendedores, estudiantes, creativos y personas con iniciativa que tienen una idea de proyecto, pero no cuentan con un equipo completo para desarrollarla. También afecta a personas con habilidades útiles que desean participar en proyectos, pero no encuentran un espacio claro donde descubrir ideas a las que puedan unirse.
+
+#### **What (¿Qué?)**
+
+Existe una dificultad para conectar ideas con personas dispuestas a construirlas, lo que limita la formación de equipos de trabajo en etapas tempranas y frena el desarrollo de proyectos con potencial.
+
+#### **Where (¿Dónde?)**
+
+La problemática se presenta en entornos académicos, emprendedores, creativos y digitales, donde muchas personas buscan colaborar, pero no cuentan con una plataforma especializada para relacionar ideas con posibles integrantes de equipo.
+
+#### **When (¿Cuándo?)**
+
+El problema aparece principalmente en las fases iniciales de un proyecto, cuando la idea aún está en construcción y se necesita incorporar personas con habilidades complementarias para validarla, desarrollarla o darle forma.
+
+#### **Why (¿Por qué?)**
+
+La causa principal es la ausencia de un espacio digital enfocado específicamente en formar equipos alrededor de ideas. Las alternativas existentes suelen priorizar empleo, freelancing o networking general, pero no responden directamente a la necesidad de construir proyectos colaborativos desde cero.
+
+#### **How (¿Cómo?)**
+
+Se manifiesta cuando una persona con una idea no logra encontrar socios, desarrolladores, diseñadores u otros perfiles clave para avanzar con su proyecto. Del mismo modo, se manifiesta cuando personas interesadas en colaborar no encuentran ideas compatibles con sus intereses o habilidades.
+
+#### **How Much (¿Cuánto?)**
+
+El impacto se refleja en oportunidades perdidas de innovación, colaboración y desarrollo de proyectos. Muchas ideas no avanzan por falta de equipo, lo que genera pérdida de tiempo, desmotivación y menor probabilidad de ejecución de iniciativas que podrían convertirse en propuestas reales con el equipo adecuado.</p>
+
+<h3 id="123-lean-ux-process">1.2.3 Lean UX Process</h3>
+
+<h4 id="1231-lean-ux-problem-statement">1.2.3.1 Lean UX Problem Statement</h4>
+
+<p>Nuestra solución busca ofrecer una plataforma digital que permita publicar ideas de proyectos y facilitar la conexión con personas interesadas en sumarse a su desarrollo según rol, habilidades o intereses.
+
+Hemos observado que muchas personas tienen ideas con potencial, pero no logran avanzar porque no cuentan con el equipo adecuado ni con un espacio orientado específicamente a encontrar colaboradores para construirlas.
+
+¿Cómo podemos facilitar la formación de equipos alrededor de ideas en etapa temprana para que más proyectos puedan pasar de la intención a la ejecución?</p>
+
+<p>Nuestra solución busca mejorar el descubrimiento entre personas e ideas, permitiendo que quienes desean colaborar encuentren proyectos más alineados con sus habilidades e intereses.
+
+Hemos observado que muchas personas sí quieren participar en proyectos, pero no encuentran fácilmente iniciativas compatibles ni una forma clara de identificar en qué idea podrían aportar valor.
+
+¿Cómo podemos ayudar a que las personas encuentren ideas relevantes y se conecten con proyectos donde realmente puedan contribuir?</p>
+
+<p>Nuestra solución busca crear una experiencia centrada en la colaboración temprana, donde el objetivo principal no sea vender servicios ni buscar empleo, sino construir proyectos en conjunto.
+
+Hemos observado que las plataformas existentes suelen enfocarse en relaciones laborales o transaccionales, dejando de lado a quienes buscan crear algo nuevo con otras personas desde etapas iniciales.
+
+¿Cómo podemos diseñar una experiencia que fomente conexiones genuinas para la construcción colaborativa de proyectos?</p>
+
+<h4 id="1232-lean-ux-assumptions">1.2.3.2 Lean UX Assumptions</h4>
+
+<p><strong>Business Assumptions:</strong></p>
+
+<ul>
+  <li>Creemos que nuestros usuarios necesitan un espacio especializado para publicar ideas y encontrar personas interesadas en desarrollarlas.</li>
+  <li>Estas necesidades se pueden satisfacer mediante una plataforma que conecte usuarios según roles, habilidades e intereses compartidos.</li>
+  <li>Nuestros usuarios iniciales serán estudiantes, emprendedores y creativos que busquen iniciar proyectos o sumarse a iniciativas en etapa temprana.</li>
+  <li>El valor principal que los usuarios esperan de nuestro servicio es la posibilidad de encontrar personas compatibles para convertir una idea en un proyecto real.</li>
+  <li>Los usuarios también obtendrán mayor visibilidad sobre oportunidades de colaboración y sobre proyectos alineados con sus intereses.</li>
+  <li>Planeamos atraer a nuestros primeros usuarios mediante comunidades académicas, redes sociales y difusión en entornos de emprendimiento y tecnología.</li>
+  <li>En una etapa futura, la plataforma podría explorar mecanismos de monetización asociados a funcionalidades premium o mayor visibilidad dentro del sistema.</li>
+  <li>Nuestra competencia estará conformada por redes profesionales, comunidades en línea y plataformas generalistas de networking o colaboración.</li>
+  <li>Nuestra ventaja principal será enfocarnos específicamente en la formación de equipos alrededor de ideas, y no en la contratación de servicios o la búsqueda de empleo.</li>
+  <li>El mayor riesgo del servicio es que los usuarios no encuentren suficiente valor diferencial o que no existan suficientes conexiones relevantes dentro de la plataforma.</li>
+  <li>Buscaremos reducir este riesgo mediante una propuesta clara de colaboración, una experiencia simple de exploración de ideas y validación constante con usuarios reales.</li>
+</ul>
+
+<p><strong>User Assumptions:</strong></p>
+
+<ul>
+  <li><strong>¿Quién es el usuario?</strong> Es una persona que tiene una idea y necesita un equipo para desarrollarla, o una persona que desea integrarse a proyectos según sus habilidades, intereses o motivaciones.</li>
+  <li><strong>¿Qué problemas tiene nuestro producto que resolver?</strong> La dificultad para encontrar colaboradores adecuados, la baja visibilidad de ideas compatibles y la falta de un entorno especializado en colaboración temprana.</li>
+  <li><strong>¿Qué características son importantes?</strong> Publicación clara de ideas, perfiles con habilidades e intereses, filtros por rol, facilidad para explorar proyectos y mecanismos simples para mostrar interés o postularse.</li>
+  <li><strong>¿Dónde encaja nuestro producto en su trabajo o vida?</strong> Encaja en etapas de ideación, emprendimiento, formación académica, aprendizaje práctico y búsqueda de proyectos colaborativos.</li>
+  <li><strong>¿Cuándo y cómo es nuestro producto usado?</strong> Se usa cuando una persona quiere lanzar una idea, buscar equipo o integrarse a un proyecto ya publicado. El acceso será principalmente digital a través de una plataforma web.</li>
+  <li><strong>¿Cómo debe verse nuestro producto y cómo debe comportarse?</strong> Debe ser intuitivo, claro y colaborativo, permitiendo comprender rápidamente una idea, identificar oportunidades de participación y generar conexiones sin fricción innecesaria.</li>
+</ul>
+
+<h4 id="1233-lean-ux-hypothesis">1.2.3.3 Lean UX Hypothesis</h4>
+
+<p><strong>Hypothesis Statement 01</strong><br>
+Creemos que permitiendo a los usuarios publicar ideas de proyecto con una descripción clara, objetivo y perfiles buscados, sabremos que hemos tenido éxito cuando más usuarios logren presentar sus ideas de forma comprensible y atractiva dentro de la plataforma.</p>
+
+<p><strong>Hypothesis Statement 02</strong><br>
+Creemos que incorporando filtros por habilidades, intereses y roles, sabremos que hemos tenido éxito cuando los usuarios encuentren proyectos o personas más alineados con lo que buscan.</p>
+
+<p><strong>Hypothesis Statement 03</strong><br>
+Creemos que mostrando información suficiente sobre las ideas y los perfiles involucrados, sabremos que hemos tenido éxito cuando aumente la cantidad de conexiones iniciadas entre creadores de ideas y posibles colaboradores.</p>
+
+<p><strong>Hypothesis Statement 04</strong><br>
+Creemos que diseñando una experiencia orientada a la colaboración y no al freelancing o al empleo, sabremos que hemos tenido éxito cuando los usuarios perciban a IdeaForge como un espacio adecuado para construir proyectos en conjunto.</p>
+
+<p><strong>Hypothesis Statement 05</strong><br>
+Creemos que simplificando la acción de mostrar interés o unirse a una idea, sabremos que hemos tenido éxito cuando más usuarios pasen de solo explorar a participar activamente en proyectos publicados.</p>
+
+<p><strong>Hypothesis Statement 06</strong><br>
+Creemos que validando continuamente la propuesta con estudiantes, emprendedores y creativos, sabremos que hemos tenido éxito cuando identifiquemos mejoras claras para fortalecer la experiencia de formación de equipos dentro de la plataforma.</p>
