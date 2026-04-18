@@ -4,19 +4,19 @@
 
 <h3 id="111-descripción-de-la-startup">1.1.1 Descripción de la Startup</h3>
 
-<p>IdeaForge es una startup de base tecnológica conformada por estudiantes de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC). Surge con el propósito de facilitar la conexión entre personas con ideas de proyectos y personas interesadas en contribuir a su desarrollo según sus habilidades, roles o intereses.
+<p>IdeaForge es una startup de base tecnológica conformada por estudiantes de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC). Surge con el propósito de facilitar la conexión entre personas con ideas de proyectos y personas interesadas en contribuir a su desarrollo según sus habilidades, roles o intereses.</p>
 
-La propuesta de IdeaForge se centra en crear un espacio digital donde emprendedores, estudiantes y creativos puedan publicar ideas en etapa temprana y encontrar posibles colaboradores para construirlas de manera conjunta. A diferencia de otras plataformas enfocadas en la búsqueda de empleo, networking profesional o contratación de servicios, IdeaForge busca promover la formación de equipos alrededor de ideas con potencial de desarrollo.
+<p>La propuesta de IdeaForge se centra en crear un espacio digital donde emprendedores, estudiantes y creativos puedan publicar ideas en etapa temprana y encontrar posibles colaboradores para construirlas de manera conjunta. A diferencia de otras plataformas enfocadas en la búsqueda de empleo, el networking profesional o la contratación de servicios, IdeaForge busca promover la formación de equipos alrededor de ideas con potencial de desarrollo.</p>
 
-Nuestra iniciativa parte de la necesidad de reducir una barrera frecuente en los procesos de creación de proyectos: la dificultad para encontrar personas compatibles que compartan interés, motivación y capacidades complementarias. En ese sentido, IdeaForge busca facilitar conexiones más relevantes y orientadas a la colaboración desde etapas iniciales.
+<p>Nuestra iniciativa parte de una necesidad frecuente en los procesos de creación de proyectos: la dificultad para encontrar personas compatibles que compartan interés, motivación y capacidades complementarias. En ese sentido, IdeaForge busca facilitar conexiones más relevantes y orientadas a la colaboración desde etapas iniciales.</p>
 
-Como startup, nos enfocamos en una propuesta que combina tecnología, colaboración e innovación, con la intención de ofrecer una experiencia accesible y útil para quienes desean transformar una idea en un proyecto real mediante el trabajo en equipo.
+<p>Como startup, nos enfocamos en una propuesta que combina tecnología, colaboración e innovación, con la intención de ofrecer una experiencia accesible y útil para quienes desean transformar una idea en un proyecto real mediante el trabajo en equipo.</p>
 
-A largo plazo, IdeaForge aspira a consolidarse como una plataforma de referencia para la formación de equipos interdisciplinarios alrededor de ideas, promoviendo la colaboración entre personas con distintas capacidades y fomentando el desarrollo de proyectos con mayor posibilidad de ejecución.</p>
+<p>A largo plazo, IdeaForge aspira a consolidarse como una plataforma de referencia para la formación de equipos interdisciplinarios alrededor de ideas, promoviendo la colaboración entre personas con distintas capacidades y fomentando el desarrollo de proyectos con mayor posibilidad de ejecución.</p>
 
 <h3 id="112-perfiles-de-integrantes-del-equipo">1.1.2 Perfiles de integrantes del equipo</h3>
 
-<p><strong>Esta sección no se modifica, según indicación del equipo.</strong></p>
+<p><strong>Esta sección será completada por el equipo.</strong></p>
 
 <h2 id="12-solution-profile">1.2 Solution Profile</h2>
 
@@ -28,11 +28,11 @@ A largo plazo, IdeaForge aspira a consolidarse como una plataforma de referencia
 
 <h4>Antecedentes</h4>
 
-<p>En la actualidad, muchas personas cuentan con ideas de proyectos, emprendimientos o iniciativas colaborativas, pero no logran llevarlas a la práctica debido a la falta de un equipo adecuado. En numerosos casos, una persona puede tener la motivación, la visión del proyecto o conocimientos en un área específica, pero no dispone de los perfiles complementarios necesarios para diseñar, desarrollar, validar o impulsar la idea.
+<p>En la actualidad, muchas personas cuentan con ideas de proyectos, emprendimientos o iniciativas colaborativas, pero no logran llevarlas a la práctica debido a la falta de un equipo adecuado. En numerosos casos, una persona puede tener la motivación, la visión del proyecto o conocimientos en un área específica, pero no dispone de los perfiles complementarios necesarios para diseñar, desarrollar, validar o impulsar la idea.</p>
 
-Aunque existen redes sociales, comunidades virtuales y plataformas profesionales orientadas al networking o a la búsqueda de empleo, estas no están centradas específicamente en la formación de equipos alrededor de ideas en etapa temprana. Como resultado, muchas ideas quedan detenidas o abandonadas antes de convertirse en proyectos reales, no por falta de interés, sino por la ausencia de conexiones adecuadas entre personas con capacidades complementarias.
+<p>Aunque existen redes sociales, comunidades virtuales y plataformas profesionales orientadas al networking o a la búsqueda de empleo, estas no están centradas específicamente en la formación de equipos alrededor de ideas en etapa temprana. Como resultado, muchas ideas quedan detenidas o abandonadas antes de convertirse en proyectos reales, no por falta de interés, sino por la ausencia de conexiones adecuadas entre personas con capacidades complementarias.</p>
 
-En este contexto, IdeaForge surge como una propuesta que busca cubrir esa necesidad, ofreciendo un espacio digital donde los usuarios puedan publicar ideas y encontrar personas que quieran sumarse a ellas según sus roles, habilidades o intereses. La finalidad es facilitar la creación de equipos desde una etapa inicial, promoviendo la colaboración y aumentando las posibilidades de que una idea avance hacia su ejecución.</p>
+<p>En este contexto, IdeaForge surge como una propuesta que busca cubrir esa necesidad, ofreciendo un espacio digital donde los usuarios puedan publicar ideas y encontrar personas que quieran sumarse a ellas según sus roles, habilidades o intereses. La finalidad es facilitar la creación de equipos desde una etapa inicial, promoviendo la colaboración y aumentando las posibilidades de que una idea avance hacia su ejecución.</p>
 
 <h4>Problemática (5W 2H)</h4>
 
@@ -62,29 +62,29 @@ Se manifiesta cuando una persona con una idea no logra encontrar socios, desarro
 
 #### **How Much (¿Cuánto?)**
 
-El impacto se refleja en oportunidades perdidas de innovación, colaboración y desarrollo de proyectos. Muchas ideas no avanzan por falta de equipo, lo que genera pérdida de tiempo, desmotivación y menor probabilidad de ejecución de iniciativas que podrían convertirse en propuestas reales con el equipo adecuado.</p>
+El impacto se refleja en oportunidades perdidas de innovación, colaboración y desarrollo de proyectos. Muchas ideas no avanzan por falta de equipo, lo que genera pérdida de tiempo, desmotivación y menor probabilidad de ejecución de iniciativas que podrían convertirse en propuestas reales con el equipo adecuado.
 
 <h3 id="123-lean-ux-process">1.2.3 Lean UX Process</h3>
 
 <h4 id="1231-lean-ux-problem-statement">1.2.3.1 Lean UX Problem Statement</h4>
 
-<p>Nuestra solución busca ofrecer una plataforma digital que permita publicar ideas de proyectos y facilitar la conexión con personas interesadas en sumarse a su desarrollo según rol, habilidades o intereses.
+<p>Nuestra solución busca ofrecer una plataforma digital que permita publicar ideas de proyectos y facilitar la conexión con personas interesadas en sumarse a su desarrollo según rol, habilidades o intereses.</p>
 
-Hemos observado que muchas personas tienen ideas con potencial, pero no logran avanzar porque no cuentan con el equipo adecuado ni con un espacio orientado específicamente a encontrar colaboradores para construirlas.
+<p>Hemos observado que muchas personas tienen ideas con potencial, pero no logran avanzar porque no cuentan con el equipo adecuado ni con un espacio orientado específicamente a encontrar colaboradores para construirlas.</p>
 
-¿Cómo podemos facilitar la formación de equipos alrededor de ideas en etapa temprana para que más proyectos puedan pasar de la intención a la ejecución?</p>
+<p><strong>¿Cómo podemos facilitar la formación de equipos alrededor de ideas en etapa temprana para que más proyectos puedan pasar de la intención a la ejecución?</strong></p>
 
-<p>Nuestra solución busca mejorar el descubrimiento entre personas e ideas, permitiendo que quienes desean colaborar encuentren proyectos más alineados con sus habilidades e intereses.
+<p>Nuestra solución busca mejorar el descubrimiento entre personas e ideas, permitiendo que quienes desean colaborar encuentren proyectos más alineados con sus habilidades e intereses.</p>
 
-Hemos observado que muchas personas sí quieren participar en proyectos, pero no encuentran fácilmente iniciativas compatibles ni una forma clara de identificar en qué idea podrían aportar valor.
+<p>Hemos observado que muchas personas sí quieren participar en proyectos, pero no encuentran fácilmente iniciativas compatibles ni una forma clara de identificar en qué idea podrían aportar valor.</p>
 
-¿Cómo podemos ayudar a que las personas encuentren ideas relevantes y se conecten con proyectos donde realmente puedan contribuir?</p>
+<p><strong>¿Cómo podemos ayudar a que las personas encuentren ideas relevantes y se conecten con proyectos donde realmente puedan contribuir?</strong></p>
 
-<p>Nuestra solución busca crear una experiencia centrada en la colaboración temprana, donde el objetivo principal no sea vender servicios ni buscar empleo, sino construir proyectos en conjunto.
+<p>Nuestra solución busca crear una experiencia centrada en la colaboración temprana, donde el objetivo principal no sea vender servicios ni buscar empleo, sino construir proyectos en conjunto.</p>
 
-Hemos observado que las plataformas existentes suelen enfocarse en relaciones laborales o transaccionales, dejando de lado a quienes buscan crear algo nuevo con otras personas desde etapas iniciales.
+<p>Hemos observado que las plataformas existentes suelen enfocarse en relaciones laborales o transaccionales, dejando de lado a quienes buscan crear algo nuevo con otras personas desde etapas iniciales.</p>
 
-¿Cómo podemos diseñar una experiencia que fomente conexiones genuinas para la construcción colaborativa de proyectos?</p>
+<p><strong>¿Cómo podemos diseñar una experiencia que fomente conexiones genuinas para la construcción colaborativa de proyectos?</strong></p>
 
 <h4 id="1232-lean-ux-assumptions">1.2.3.2 Lean UX Assumptions</h4>
 
@@ -134,3 +134,81 @@ Creemos que simplificando la acción de mostrar interés o unirse a una idea, sa
 
 <p><strong>Hypothesis Statement 06</strong><br>
 Creemos que validando continuamente la propuesta con estudiantes, emprendedores y creativos, sabremos que hemos tenido éxito cuando identifiquemos mejoras claras para fortalecer la experiencia de formación de equipos dentro de la plataforma.</p>
+
+<h4 id="1234-lean-ux-canvas">1.2.3.4 Lean UX Canvas</h4>
+
+<div style="text-align: center; margin: 20px 0;">
+  <!-- Aquí se insertará la imagen del Lean UX Canvas -->
+</div>
+
+<h2 id="13-segmentos-objetivo">1.3 Segmentos objetivo</h2>
+
+<p>Con el fin de orientar adecuadamente la propuesta de valor de IdeaForge, se han definido dos segmentos objetivo principales. Ambos representan a los usuarios clave dentro de la plataforma, ya que uno corresponde a quienes publican ideas de proyectos y el otro a quienes buscan sumarse a iniciativas según sus habilidades, intereses o motivaciones. Esta segmentación permite comprender mejor las necesidades de los futuros usuarios y diseñar una experiencia más clara, útil y enfocada en la formación de equipos desde etapas tempranas.</p>
+
+<h3>Segmento objetivo #1: Personas con ideas de proyecto que buscan formar equipo</h3>
+
+<p>Este segmento está conformado por usuarios que cuentan con una idea de proyecto, emprendimiento o iniciativa colaborativa, pero que no disponen de un equipo completo para desarrollarla. Dentro de este grupo pueden encontrarse emprendedores, estudiantes, creativos o personas con iniciativa que ya identificaron una oportunidad o tienen una propuesta inicial, pero necesitan incorporar perfiles complementarios para dar el siguiente paso.</p>
+
+<p>Su principal necesidad es encontrar personas interesadas en sumarse a la idea, ya sea desde un enfoque técnico, creativo, organizacional o estratégico. En muchos casos, estos usuarios tienen claridad sobre el problema que quieren abordar o sobre el propósito del proyecto, pero encuentran dificultades para convertir esa intención en una ejecución real debido a la falta de socios, colaboradores o compañeros de equipo.</p>
+
+<p><strong>Aspectos demográficos:</strong></p>
+
+<p>Sexo: Masculino y femenino.</p>
+<p>Rango de edad: 18 a 35 años.</p>
+<p>Nivel educativo: Estudiantes universitarios, egresados o jóvenes profesionales.</p>
+
+<p><strong>Aspectos geográficos:</strong></p>
+
+<p>Ubicación: Principalmente zonas urbanas y entornos académicos o emprendedores.</p>
+<p>Alcance: Inicialmente usuarios con acceso frecuente a medios digitales y comunidades de innovación o colaboración.</p>
+
+<p><strong>Aspectos psicográficos:</strong></p>
+
+<p>Intereses: Emprendimiento, innovación, desarrollo de productos, creatividad, solución de problemas y colaboración.</p>
+<p>Estilo de vida: Participativo, orientado a crear, aprender o iniciar nuevos proyectos.</p>
+<p>Actitudes: Buscan avanzar con una idea, conectar con personas afines y transformar una propuesta inicial en algo más concreto.</p>
+
+<p><strong>Necesidades clave:</strong></p>
+
+<p>Encontrar personas con habilidades complementarias.</p>
+<p>Publicar su idea de forma clara y atractiva.</p>
+<p>Conectar con posibles colaboradores interesados en construir el proyecto.</p>
+<p>Validar si su idea genera interés y tiene potencial de desarrollo.</p>
+
+<p><strong>Comportamiento digital:</strong></p>
+
+<p>Son usuarios familiarizados con redes sociales, plataformas digitales, comunidades académicas, espacios de networking o entornos donde se comparten ideas, proyectos y oportunidades de colaboración.</p>
+
+<h3>Segmento objetivo #2: Personas con habilidades o intereses que buscan unirse a proyectos</h3>
+
+<p>Este segmento está conformado por usuarios que no necesariamente tienen una idea propia que liderar, pero sí desean participar en proyectos que les resulten interesantes o alineados con sus capacidades. Aquí pueden encontrarse estudiantes, desarrolladores, diseñadores, perfiles de negocio, creativos u otras personas que buscan aportar en iniciativas colaborativas para ganar experiencia, construir portafolio, aprender o formar parte de algo con potencial.</p>
+
+<p>Su principal necesidad es descubrir proyectos compatibles con sus habilidades, intereses o motivaciones, así como contar con suficiente información para evaluar en qué idea vale la pena involucrarse. Estos usuarios valoran la claridad del proyecto, el rol que podrían desempeñar y la posibilidad de colaborar en algo significativo desde etapas tempranas.</p>
+
+<p><strong>Aspectos demográficos:</strong></p>
+
+<p>Sexo: Masculino y femenino.</p>
+<p>Rango de edad: 18 a 35 años.</p>
+<p>Nivel educativo: Estudiantes universitarios, egresados o jóvenes profesionales en etapa de desarrollo académico o laboral.</p>
+
+<p><strong>Aspectos geográficos:</strong></p>
+
+<p>Ubicación: Principalmente zonas urbanas, entornos universitarios y comunidades digitales.</p>
+<p>Alcance: Usuarios con acceso a internet y disposición para participar en proyectos colaborativos de forma digital.</p>
+
+<p><strong>Aspectos psicográficos:</strong></p>
+
+<p>Intereses: Aprendizaje práctico, colaboración, experiencia en proyectos reales, innovación, desarrollo profesional y participación en ideas con propósito.</p>
+<p>Estilo de vida: Activo digitalmente, con interés en desarrollar habilidades, ampliar experiencia o integrarse a comunidades de creación.</p>
+<p>Actitudes: Buscan aportar valor, explorar oportunidades y formar parte de proyectos alineados con sus capacidades o afinidades.</p>
+
+<p><strong>Necesidades clave:</strong></p>
+
+<p>Descubrir ideas o proyectos afines a sus intereses.</p>
+<p>Identificar claramente qué perfiles o roles necesita cada proyecto.</p>
+<p>Evaluar si pueden aportar valor de acuerdo con sus habilidades.</p>
+<p>Contar con una forma simple de expresar interés o unirse a una iniciativa.</p>
+
+<p><strong>Comportamiento digital:</strong></p>
+
+<p>Son usuarios acostumbrados al uso de plataformas digitales, comunidades en línea, redes sociales, portafolios virtuales o espacios donde pueden aprender, interactuar y participar en proyectos colaborativos.</p>
