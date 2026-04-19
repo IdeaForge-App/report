@@ -186,6 +186,70 @@
 
 <h3 id="221-diseno-de-entrevistas">2.2.1 Diseño de entrevistas</h3>
 
+<p>Para cualquier entrevistado:</p>
+
+<p>Obtener los siguientes datos:</p>
+
+<ul>
+  <li>Nombre completo</li>
+  <li>Edad</li>
+  <li>Género</li>
+  <li>Nivel de educación: (Secundaria, Técnico, Universitario, Posgrado)</li>
+  <li>Distrito de residencia</li>
+  <li>Ocupación actual</li>
+  <li>Área de estudio o especialidad</li>
+  <li>¿Actualmente participa en algún proyecto, emprendimiento o iniciativa colaborativa?</li>
+</ul>
+
+<h4>Segmento Objetivo 1: Personas con ideas de proyecto que buscan formar equipo</h4>
+
+<p><strong>Introducción y contexto:</strong></p>
+
+<ol>
+  <li>¿Podrías contarme brevemente qué tipo de idea o proyecto te gustaría desarrollar?</li>
+  <li>¿En qué etapa se encuentra actualmente tu idea? (solo concepto, validación inicial, prototipo, otro)</li>
+</ol>
+
+<p><strong>Identificación de pain points (problemas):</strong></p>
+
+<ol start="3">
+  <li>¿Cuál ha sido la principal dificultad que has encontrado para avanzar con tu idea?</li>
+  <li>¿Has intentado antes buscar personas para unirte o formar equipo? ¿Cómo fue esa experiencia?</li>
+  <li>¿Qué perfiles o habilidades sientes que te faltan para poder desarrollar mejor tu proyecto?</li>
+</ol>
+
+<p><strong>Validación de la solución:</strong></p>
+
+<ol start="6">
+  <li>¿Qué tan útil te resultaría una plataforma donde puedas publicar tu idea y encontrar personas interesadas según rol, habilidades o intereses?</li>
+  <li>¿Qué información te gustaría ver en el perfil de una persona antes de invitarla a unirse a tu proyecto?</li>
+  <li>Actualmente, ¿por qué no te basta con buscar colaboradores en redes como LinkedIn, grupos de WhatsApp, Discord, Facebook o entre tus propios contactos?</li>
+</ol>
+
+<h4>Segmento Objetivo 2: Personas con habilidades o intereses que buscan unirse a proyectos</h4>
+
+<p><strong>Introducción y contexto:</strong></p>
+
+<ol>
+  <li>¿Qué tipo de habilidades, conocimientos o experiencia consideras que podrías aportar en un proyecto?</li>
+  <li>¿Has participado antes en algún proyecto colaborativo, emprendimiento o iniciativa similar? ¿Cómo fue esa experiencia?</li>
+</ol>
+
+<p><strong>Identificación de pain points (problemas):</strong></p>
+
+<ol start="3">
+  <li>Cuando quieres sumarte a un proyecto, ¿cuál es la mayor dificultad que encuentras normalmente?</li>
+  <li>¿Qué te genera desconfianza o dudas al momento de considerar unirte a una idea o proyecto de otra persona?</li>
+  <li>¿Qué tipo de proyectos te resultan más atractivos para participar y cuáles evitarías?</li>
+</ol>
+
+<p><strong>Validación de la solución:</strong></p>
+
+<ol start="6">
+  <li>¿Qué tan útil te resultaría una plataforma donde puedas explorar ideas publicadas y unirte a aquellas que coincidan con tus intereses o habilidades?</li>
+  <li>¿Qué información mínima necesitarías ver sobre un proyecto antes de decidir si te interesa participar?</li>
+</ol>
+
 <h3 id="222-registro-de-entrevistas">2.2.2 Registro de entrevistas</h3>
 
 <h3 id="223-analisis-de-entrevistas">2.2.3 Análisis de entrevistas</h3>
