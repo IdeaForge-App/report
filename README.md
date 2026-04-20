@@ -258,15 +258,153 @@
 
 <h3 id="231-user-personas">2.3.1 User Personas</h3>
 
+### Segmento 1: Emprendedora en etapa inicial
+Usuario que tiene una idea de proyecto y necesita encontrar personas con habilidades complementarias para convertirla en una propuesta real.
+
+<img width="1050" height="1498" alt="Valeria Rojas" src="https://github.com/user-attachments/assets/da76a234-91c0-45a3-929f-527791d6324e" />
+
+### Segmento 2: Estudiante que busca ganar experiencia práctica
+Usuario que desea integrarse a proyectos para aplicar sus conocimientos, aprender en un entorno real y fortalecer su perfil profesional.
+
+<img width="1050" height="1228" alt="Diego Mendoza" src="https://github.com/user-attachments/assets/11ca967b-87f8-4f59-a9cd-524257694fb7" />
+
 <h3 id="232-user-task-matrix">2.3.2 User Task Matrix</h3>
+
+En esta sección se presenta el **User Task Matrix**, que concentra las tareas que los **User Persona** realizan para cumplir sus objetivos. Estas tareas no corresponden a funcionalidades de software, sino a actividades que los segmentos realizan independientemente de la existencia de la solución.
+
+Se consideran dos segmentos principales:
+
+- **Valeria Rojas**: emprendedora en etapa inicial.
+- **Diego Mendoza**: estudiante que busca ganar experiencia práctica.
+
+| Tarea (Task) | Valeria – Frecuencia | Valeria – Importancia | Diego – Frecuencia | Diego – Importancia |
+|---|---|---|---|---|
+| Identificar oportunidades para desarrollar una idea o participar en un proyecto | Media | Alta | Alta | Alta |
+| Buscar personas con intereses afines para colaborar | Alta | Alta | Media | Alta |
+| Explicar su perfil, motivaciones o propuesta a otras personas | Alta | Alta | Alta | Alta |
+| Evaluar si una idea o proyecto tiene potencial y vale la pena | Alta | Alta | Alta | Alta |
+| Identificar qué tipo de apoyo o rol necesita un proyecto | Alta | Alta | Media | Media |
+| Identificar en qué tipo de proyecto puede aportar según sus habilidades | Media | Alta | Alta | Alta |
+| Buscar espacios donde conectarse con posibles colaboradores o equipos | Alta | Alta | Alta | Alta |
+| Comparar distintas opciones antes de comprometerse con una colaboración | Media | Alta | Alta | Alta |
+| Demostrar compromiso, capacidades o interés para generar confianza | Alta | Alta | Alta | Alta |
+| Coordinar conversaciones iniciales con posibles colaboradores o equipos | Alta | Alta | Media | Alta |
+| Evaluar si las personas con las que trabajará son confiables y compatibles | Alta | Alta | Media | Alta |
+| Decidir si se compromete o no con una idea, proyecto o equipo | Alta | Alta | Alta | Alta |
+| Organizar el trabajo inicial con otras personas | Alta | Alta | Baja | Media |
+| Aprender de la experiencia obtenida en colaboraciones o proyectos | Media | Media | Alta | Alta |
+
+### Análisis
+La matriz muestra coincidencias importantes entre ambos segmentos, especialmente en tareas como:
+
+- evaluar si una idea o proyecto vale la pena,
+- explicar su perfil o propuesta,
+- buscar espacios para conectarse con otros,
+- decidir si comprometerse con una colaboración.
+
+Sin embargo, también existen diferencias claras:
+
+- **Valeria** se enfoca más en buscar colaboradores, coordinar conversaciones, identificar roles necesarios y organizar el trabajo inicial.
+- **Diego** se enfoca más en encontrar proyectos donde pueda aportar, comparar oportunidades y aprender de la experiencia obtenida.
+
+Estas diferencias permiten entender que **deaForge** debe responder tanto a quienes proponen ideas como a quienes buscan integrarse a ellas.
 
 <h3 id="233-user-journey-mapping">2.3.3 User Journey Mapping</h3>
 
+<img width="3235" height="1299" alt="User Journey Mapping" src="https://github.com/user-attachments/assets/0de9fab8-9d11-49fd-b9c6-c75004a80e28" />
+
 <h3 id="234-empathy-mapping">2.3.4 Empathy Mapping</h3>
+
+### Segmento objetivo 1: Emprendedora en etapa inicial
+
+<img width="1050" height="1828" alt="Empathy map" src="https://github.com/user-attachments/assets/7ba19bc3-7d8f-4eff-bb2a-c599fcf5c74c" />
+
+### Segmento objetivo 2: Estudiante en búsqueda de experiencia
+
+<img width="1050" height="1918" alt="Empathy map2" src="https://github.com/user-attachments/assets/40e59eac-45d9-41be-a3e0-831c646255e8" />
 
 <h3 id="235-big-picture-eventstorming">2.3.5 Big Picture EventStorming</h3>
 
 <h3 id="236-ubiquitous-language">2.3.6 Ubiquitous Language</h3>
+
+El lenguaje ubicuo es una parte fundamental de la estrategia de UX. Se refiere al conjunto de términos y frases que, aunque no pertenecen al contexto técnico del desarrollo, se utilizan para expresar la lógica del negocio. Esto permite que todos los involucrados en el proyecto, incluidos los usuarios finales, puedan entender y participar mejor en el desarrollo del producto.
+
+### Glosario
+
+**Usuario**  
+Persona registrada en la plataforma que puede interactuar con ideas de proyecto, ya sea publicando una propuesta o buscando integrarse a una existente.
+
+**Perfil de usuario**  
+Información pública y relevante de cada usuario dentro de la plataforma, incluyendo nombre, habilidades, intereses, experiencia y rol con el que desea participar en proyectos.
+
+**Idea de proyecto**  
+Propuesta inicial publicada por un usuario con el fin de presentar una iniciativa y atraer personas interesadas en desarrollarla de manera colaborativa.
+
+**Proyecto**  
+Idea estructurada que cuenta con una descripción más definida, objetivos claros y necesidades específicas para su desarrollo en equipo.
+
+**Creador de proyecto**  
+Usuario que publica una idea o proyecto en la plataforma y busca formar un equipo para llevarlo a cabo. Generalmente cumple un rol de liderazgo o coordinación inicial.
+
+**Colaborador**  
+Usuario que desea participar en un proyecto aportando conocimientos, habilidades o experiencia en un rol específico.
+
+**Equipo**  
+Conjunto de usuarios que se unen alrededor de una idea o proyecto para trabajar de manera colaborativa en su desarrollo.
+
+**Rol requerido**  
+Función o perfil que el creador del proyecto necesita incorporar al equipo, como desarrollador móvil, backend, diseñador UX/UI, marketing, entre otros.
+
+**Habilidad**  
+Competencia o conocimiento que un usuario puede aportar al proyecto. Puede ser técnica, creativa, organizativa o de negocio.
+
+**Interés**  
+Área temática, tipo de proyecto o campo de aplicación con el que un usuario se siente identificado y en el que desea colaborar.
+
+**Postulación**  
+Acción mediante la cual un usuario expresa su interés en formar parte de un proyecto determinado.
+
+**Postulante**  
+Usuario que ha enviado una postulación para integrarse a un proyecto y se encuentra a la espera de ser evaluado por el creador.
+
+**Estado de postulación**  
+Condición en la que se encuentra una postulación dentro del proceso de selección. Puede ser pendiente, aceptada o rechazada.
+
+**Compatibilidad**  
+Grado de afinidad entre el perfil de un usuario y las necesidades de un proyecto, considerando habilidades, intereses, experiencia y rol requerido.
+
+**Convocatoria**  
+Llamado realizado por el creador del proyecto para atraer personas interesadas en participar en la idea propuesta.
+
+**Proyecto en formación**  
+Proyecto que aún se encuentra en etapa de búsqueda de integrantes y todavía no cuenta con el equipo completo para iniciar su desarrollo.
+
+**Proyecto activo**  
+Proyecto que ya cuenta con un equipo base conformado y puede empezar a ejecutar actividades para su desarrollo.
+
+**Colaboración**  
+Participación conjunta entre varios usuarios con el objetivo de aportar al avance y construcción de un proyecto común.
+
+**Compromiso**  
+Nivel de responsabilidad, constancia y disposición de un usuario para participar activamente dentro de un proyecto.
+
+**Coincidencia de perfil**  
+Relación entre las características de un usuario y las necesidades de un proyecto, utilizada para identificar posibles oportunidades de integración.
+
+**Exploración de proyectos**  
+Proceso mediante el cual un usuario revisa distintas ideas o proyectos disponibles para identificar oportunidades de participación.
+
+**Formación de equipo**  
+Proceso de reunir usuarios con perfiles complementarios alrededor de una idea o proyecto para iniciar su desarrollo.
+
+### Términos a evitar
+- **Cliente**
+- **Freelancer**
+- **Proveedor**
+- **Empleo formal**
+- **Venta de servicios**
+
+Estos términos no representan adecuadamente la propuesta de valor de **deaForge**, ya que la plataforma no está orientada a la contratación o comercialización de servicios, sino a la formación de equipos alrededor de ideas de proyecto.
 
 <h2 id="24-requirements-specification">2.4 Requirements specification</h2>
 
