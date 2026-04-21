@@ -325,6 +325,8 @@ Estas diferencias permiten entender que **deaForge** debe responder tanto a quie
 
 <h3 id="235-big-picture-eventstorming">2.3.5 Big Picture EventStorming</h3>
 
+<img width="1075" height="827" alt="BIG PICTURE EVENTSTORMING" src="https://github.com/user-attachments/assets/317bfc28-7ef8-454b-913e-f0f189669ecc" />
+
 <h3 id="236-ubiquitous-language">2.3.6 Ubiquitous Language</h3>
 
 El lenguaje ubicuo es una parte fundamental de la estrategia de UX. Se refiere al conjunto de términos y frases que, aunque no pertenecen al contexto técnico del desarrollo, se utilizan para expresar la lógica del negocio. Esto permite que todos los involucrados en el proyecto, incluidos los usuarios finales, puedan entender y participar mejor en el desarrollo del producto.
