@@ -317,11 +317,11 @@ Estas diferencias permiten entender que **deaForge** debe responder tanto a quie
 
 ### Segmento objetivo 1: Emprendedora en etapa inicial
 
-<img width="1050" height="1828" alt="Empathy map" src="https://github.com/user-attachments/assets/7ba19bc3-7d8f-4eff-bb2a-c599fcf5c74c" />
+<img width="1050" height="1828" alt="Empathy map" src="https://github.com/user-attachments/assets/32dd17b4-0deb-4d4c-944e-5b22cfa57088" />
 
 ### Segmento objetivo 2: Estudiante en búsqueda de experiencia
 
-<img width="1050" height="1918" alt="Empathy map2" src="https://github.com/user-attachments/assets/40e59eac-45d9-41be-a3e0-831c646255e8" />
+<img width="1050" height="1918" alt="Empathy map2" src="https://github.com/user-attachments/assets/3aaf53f3-ce3f-4adf-918e-b45a1f461fba" />
 
 <h3 id="235-big-picture-eventstorming">2.3.5 Big Picture EventStorming</h3>
 
