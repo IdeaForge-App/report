@@ -515,20 +515,227 @@ Este diagrama describe la distribución del entorno en la nube. Se visualizan no
 
 <h2 id="26-tactical-level-domain-driven-design">2.6 Tactical-Level Domain-Driven Design</h2>
 
-<h3 id="26x-bounded-context-bounded-context-name">2.6.x Bounded Context: &lt;Bounded Context Name&gt;</h3>
+<h3 id="26x-bounded-context-bounded-context-iam">2.6.1 Bounded Context: IAM (Identity & Access Management)</h3>
 
-<h4 id="26x1-domain-layer">2.6.x.1 Domain Layer</h4>
+<h4 id="26x1-domain-layer">2.6.1.1 Domain Layer</h4>
 
-<h4 id="26x2-interface-layer">2.6.x.2 Interface Layer</h4>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Clase</th>
+            <th>Tipo</th>
+            <th>Propósito / Atributos y Métodos</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Account</strong></td>
+            <td>Aggregate Root</td>
+            <td>Representa la identidad única del usuario. Atributos: <code>email</code>, <code>passwordHash</code>. Métodos: <code>validateCredentials()</code>, <code>resetPassword()</code>.</td>
+        </tr>
+        <tr>
+            <td><strong>SessionToken</strong></td>
+            <td>Value Object</td>
+            <td>Encapsula la información del JWT para acceso seguro. Atributos: <code>tokenValue</code>, <code>expirationDate</code>.</td>
+        </tr>
+        <tr>
+            <td><strong>AuthService</strong></td>
+            <td>Domain Service</td>
+            <td>Lógica para la creación de cuentas y validación de sesiones. Método: <code>registerAccount()</code>.</td>
+        </tr>
+    </tbody>
+</table>
 
-<h4 id="26x3-application-layer">2.6.x.3 Application Layer</h4>
+<h4 id="26x2-interface-layer">2.6.1.2 Interface Layer</h4>
 
-<h4 id="26x4-infrastructure-layer">2.6.x.4 Infrastructure Layer</h4>
+- AuthController: Maneja los endpoints /auth/register y /auth/login. Expone la documentación en Swagger para que el frontend sepa cómo enviar las credenciales de forma segura.
 
-<h4 id="26x5-bounded-context-software-architecture-component-level-diagrams">2.6.x.5 Bounded Context Software Architecture Component Level Diagrams</h4>
+<h4 id="26x3-application-layer">2.6.1.3 Application Layer</h4>
 
-<h4 id="26x6-bounded-context-software-architecture-code-level-diagrams">2.6.x.6 Bounded Context Software Architecture Code Level Diagrams</h4>
+<h4 id="26x4-infrastructure-layer">2.6.1.4 Infrastructure Layer</h4>
 
-<h5 id="26x61-bounded-context-domain-layer-class-diagrams">2.6.x.6.1 Bounded Context Domain Layer Class Diagrams</h5>
+<h4 id="26x5-bounded-context-software-architecture-component-level-diagrams">2.6.1.5 Bounded Context Software Architecture Component Level Diagrams</h4>
 
-<h5 id="26x62-bounded-context-database-design-diagram">2.6.x.6.2 Bounded Context Database Design Diagram</h5>
+<h4 id="26x6-bounded-context-software-architecture-code-level-diagrams">2.6.1.6 Bounded Context Software Architecture Code Level Diagrams</h4>
+
+<h5 id="26x61-bounded-context-domain-layer-class-diagrams">2.6.1.6.1 Bounded Context Domain Layer Class Diagrams</h5>
+
+<h5 id="26x62-bounded-context-database-design-diagram">2.6.1.6.2 Bounded Context Database Design Diagram</h5>
+
+<h3 id="26x-bounded-context-bounded-context-iam">2.6.2 Bounded Context: Profile</h3>
+
+<h4 id="26x1-domain-layer">2.6.2.1 Domain Layer</h4>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Clase</th>
+            <th>Tipo</th>
+            <th>Propósito / Atributos y Métodos</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>User</strong></td>
+            <td>Aggregate Root</td>
+            <td>Perfil público del usuario. Atributos: <code>fullName</code>, <code>bio</code>, <code>skills[]</code>, <code>interests[]</code>. Método: <code>updateExperience()</code>.</td>
+        </tr>
+        <tr>
+            <td><strong>Skill</strong></td>
+            <td>Value Object</td>
+            <td>Representa una competencia técnica. Atributos: <code>name</code>, <code>proficiencyLevel</code>.</td>
+        </tr>
+        <tr>
+            <td><strong>ProfileRepository</strong></td>
+            <td>Interface</td>
+            <td>Abstracción para la persistencia de perfiles en la base de datos (PostgreSQL/MySQL).</td>
+        </tr>
+    </tbody>
+</table>
+
+<h4 id="26x2-interface-layer">2.6.2.2 Interface Layer</h4>
+
+- ProfileController: Endpoints para /profiles/{id} (GET/PUT). Permite a los usuarios actualizar sus habilidades, intereses y su biografia.
+
+<h4 id="26x3-application-layer">2.6.2.3 Application Layer</h4>
+
+<h4 id="26x4-infrastructure-layer">2.6.2.4 Infrastructure Layer</h4>
+
+<h4 id="26x5-bounded-context-software-architecture-component-level-diagrams">2.6.2.5 Bounded Context Software Architecture Component Level Diagrams</h4>
+
+<h4 id="26x6-bounded-context-software-architecture-code-level-diagrams">2.6.2.6 Bounded Context Software Architecture Code Level Diagrams</h4>
+
+<h5 id="26x61-bounded-context-domain-layer-class-diagrams">2.6.2.6.1 Bounded Context Domain Layer Class Diagrams</h5>
+
+<h5 id="26x62-bounded-context-database-design-diagram">2.6.2.6.2 Bounded Context Database Design Diagram</h5>
+
+<h3 id="26x-bounded-context-bounded-context-iam">2.6.3 Bounded Context: Ideas Management</h3>
+
+<h4 id="26x1-domain-layer">2.6.3.1 Domain Layer</h4>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Clase</th>
+            <th>Tipo</th>
+            <th>Propósito / Atributos y Métodos</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Idea</strong></td>
+            <td>Aggregate Root</td>
+            <td>La propuesta inicial. Atributos: <code>title</code>, <code>description</code>, <code>status</code> (Draft, Published). Método: <code>publishIdea()</code>.</td>
+        </tr>
+        <tr>
+            <td><strong>RequiredRole</strong></td>
+            <td>Value Object</td>
+            <td>Define qué perfiles busca el creador. Atributos: <code>roleName</code>, <code>quantity</code>.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h4 id="26x2-interface-layer">2.6.3.2 Interface Layer</h4>
+
+- IdeaController: Endpoints /ideas (POST) y /ideas/{id} (GET). Incluye validaciones de Swagger para asegurar que el cuerpo del JSON sea correcto antes de llegar al dominio.
+
+<h4 id="26x3-application-layer">2.6.3.3 Application Layer</h4>
+
+<h4 id="26x4-infrastructure-layer">2.6.3.4 Infrastructure Layer</h4>
+
+<h4 id="26x5-bounded-context-software-architecture-component-level-diagrams">2.6.3.5 Bounded Context Software Architecture Component Level Diagrams</h4>
+
+<h4 id="26x6-bounded-context-software-architecture-code-level-diagrams">2.6.3.6 Bounded Context Software Architecture Code Level Diagrams</h4>
+
+<h5 id="26x61-bounded-context-domain-layer-class-diagrams">2.6.3.6.1 Bounded Context Domain Layer Class Diagrams</h5>
+
+<h5 id="26x62-bounded-context-database-design-diagram">2.6.3.6.2 Bounded Context Database Design Diagram</h5>
+
+<h3 id="26x-bounded-context-bounded-context-iam">2.6.4 Bounded Context: Exploration</h3>
+
+<h4 id="26x1-domain-layer">2.6.4.1 Domain Layer</h4>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Clase</th>
+            <th>Tipo</th>
+            <th>Propósito / Atributos y Métodos</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>IdeaView</strong></td>
+            <td>Read Model</td>
+            <td>Representación optimizada de una idea para visualización rápida. Atributos: <code>id</code>, <code>summary</code>, <code>tags</code>.</td>
+        </tr>
+        <tr>
+            <td><strong>FilterCriteria</strong></td>
+            <td>Value Object</td>
+            <td>Encapsula los parámetros de búsqueda del usuario. Atributos: <code>keyword</code>, <code>category</code>.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h4 id="26x2-interface-layer">2.6.4.2 Interface Layer</h4>
+
+- ExplorationController: Endpoint /exploration/search (GET). Utiliza Query Params para filtrar los resultados que se muestran en el frontend.
+
+<h4 id="26x3-application-layer">2.6.4.3 Application Layer</h4>
+
+<h4 id="26x4-infrastructure-layer">2.6.4.4 Infrastructure Layer</h4>
+
+<h4 id="26x5-bounded-context-software-architecture-component-level-diagrams">2.6.4.5 Bounded Context Software Architecture Component Level Diagrams</h4>
+
+<h4 id="26x6-bounded-context-software-architecture-code-level-diagrams">2.6.4.6 Bounded Context Software Architecture Code Level Diagrams</h4>
+
+<h5 id="26x61-bounded-context-domain-layer-class-diagrams">2.6.4.6.1 Bounded Context Domain Layer Class Diagrams</h5>
+
+<h5 id="26x62-bounded-context-database-design-diagram">2.6.4.6.2 Bounded Context Database Design Diagram</h5>
+
+<h3 id="26x-bounded-context-bounded-context-iam">2.6.5 Bounded Context: Collaboration</h3>
+
+<h4 id="26x1-domain-layer">2.6.5.1 Domain Layer</h4>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Clase</th>
+            <th>Tipo</th>
+            <th>Propósito / Atributos y Métodos</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Postulación</strong></td>
+            <td>Entity</td>
+            <td>Registro del interés de un colaborador. Atributos: <code>postulanteId</code>, <code>status</code> (Pendiente, Aceptada). Método: <code>accept()</code>, <code>reject()</code>.</td>
+        </tr>
+        <tr>
+            <td><strong>Equipo</strong></td>
+            <td>Aggregate Root</td>
+            <td>Conjunto de usuarios colaborando. Atributos: <code>projectId</code>, <code>members[]</code>. Método: <code>addMember()</code>.</td>
+        </tr>
+        <tr>
+            <td><strong>MatchingService</strong></td>
+            <td>Domain Service</td>
+            <td>Lógica para calcular la afinidad entre el perfil del usuario y los roles requeridos.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h4 id="26x2-interface-layer">2.6.5.2 Interface Layer</h4>
+
+- CollaborationController: Endpoints /collaborations (POST) para que el usuario se postule y /collaborations/{id}/approve (POST) para que acepte nuevos miembros.
+
+<h4 id="26x3-application-layer">2.6.5.3 Application Layer</h4>
+
+<h4 id="26x4-infrastructure-layer">2.6.5.4 Infrastructure Layer</h4>
+
+<h4 id="26x5-bounded-context-software-architecture-component-level-diagrams">2.6.5.5 Bounded Context Software Architecture Component Level Diagrams</h4>
+
+<h4 id="26x6-bounded-context-software-architecture-code-level-diagrams">2.6.5.6 Bounded Context Software Architecture Code Level Diagrams</h4>
+
+<h5 id="26x61-bounded-context-domain-layer-class-diagrams">2.6.5.6.1 Bounded Context Domain Layer Class Diagrams</h5>
+
+<h5 id="26x62-bounded-context-database-design-diagram">2.6.5.6.2 Bounded Context Database Design Diagram</h5>
