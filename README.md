@@ -464,7 +464,11 @@ El Domain Message Flow Modelling es una técnica que permite representar cómo f
 
 El Bounded Context Canvas es una herramienta visual aplicada en el marco del Domain-Driven Design (DDD) que permite representar demanera clara los límites, responsabilidades e interacciones de cada contexto dentro de un sistema complejo. Su propósito es facilitar que losequipos construyan una visión compartida sobre el nombre y objetivo de cada contexto, las entidades y agregados que lo conforman, asícomo las reglas de negocio que gobiernan su funcionamiento. En esta sección se presentan los Bounded Context Canvases correspondientes a los contextos identificados en nuestro proyecto.
 
-
+<img src="image/iam_bcc.png" width="800">
+<img src="image/profile_bcc.png" width="800">
+<img src="image/ideas_bcc.png" width="800">
+<img src="image/exploration_bcc.png" width="800">
+<img src="image/collaboration_bcc.png" width="800">
 
 <h3 id="252-context-mapping">2.5.2 Context Mapping</h3>
 
