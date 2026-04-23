@@ -420,11 +420,51 @@ Estos términos no representan adecuadamente la propuesta de valor de **deaForge
 
 <h3 id="251-eventstorming">2.5.1 EventStorming</h3>
 
+Para el proceso de EventStorming utilizamos la herramienta Miro y realizamos 4 pasos para llegar a definir los bounded context que se van atrabajar.En primer lugar, debemos identificar los eventos y trazarlos mediante una linea de tiempo imaginaria que va de izquierda a derecha. Además,se usa post-it anaranjado para identificar a los eventos.
+
+<img src="image/events.png" width="300">
+
+Como segundo paso, identificamos los comandos que disparan o llevan a acabo el evento. Identificamos a estos con un post-it de color azul.
+
+<img src="image/comands.png" width="300">
+
+Como tercer paso, identificamos los agentes que realizan o usan el comando. Estos se representan mediante un post-it de color amarillo.
+
+<img src="image/agentes.png" width="500">
+
+Como último paso, identificamos los eventos que se relacionen entre sí mediante los agregados y entidades que utilizan, agrupandolos porBounded Context.
+
+<img src="image/bounded%20context.png" width="700">
+
 <h4 id="2511-candidate-context-discovery">2.5.1.1 Candidate Context Discovery</h4>
+
+En esta sesión aplicamos la técnica de Candidate Context Discovery para identificar y separar los posibles Bounded Contexts del sistema IdeaForge. Para ello, utilizamos principalmente la técnica look-for-pivotal-events, la cual permite analizar los eventos que representan cambios importantes dentro del negocio.
+
+Al identificar eventos como UsuarioRegistrado, PerfilRegistrado, IdeaPublicada, PostulaciónEnviada, PostulaciónAceptada, entre otros; pudimos observar que cada uno implicaba responsabilidades y reglas distintas dentro del sistema. Esto nos permitió agrupar dichos eventos en contextos bien definidos, evitando ambigüedad y facilitando la organización del dominio.
+
+Este proceso nos llevó a definir los siguientes Bounded Contexts:
+
+| Bounded Context     | Descripción                                                                 | Eventos clave                                                                 |
+|--------------------|-----------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| **IAM**            | Maneja el registro, autenticación y control de acceso de los usuarios.     | Usuario Registrado, Usuario Autenticado, Sesión Cerrada                     |
+| **Profile**        | Administra la información del perfil del usuario (habilidades e intereses).| Perfil Registrado, Perfil Actualizado                                       |
+| **Ideas Management** | Gestiona la creación y publicación de ideas de proyecto.                  | Idea Creada, Idea Publicada                                                 |
+| **Exploration**    | Permite explorar ideas y visualizar sus detalles.                          | Idea Visualizada                                                            |
+| **Collaboration**  | Gestiona postulaciones y formación de equipos.                             | Postulación Iniciada, Postulación Enviada, Postulación Aceptada, Postulación Rechazada, Usuario Agregado al Equipo |
+
+---
 
 <h4 id="2512-domain-message-flows-modeling">2.5.1.2 Domain Message Flows Modeling</h4>
 
+El Domain Message Flow Modelling es una técnica que permite representar cómo fluyen los mensajes de dominio (commands, events yqueries) entre los distintos bounded contexts del sistema. Su propósito es clarificar las interacciones, dependencias y responsabilidades de cada contexto.
+
+
+
 <h4 id="2513-bounded-context-canvases">2.5.1.3 Bounded Context Canvases</h4>
+
+El Bounded Context Canvas es una herramienta visual aplicada en el marco del Domain-Driven Design (DDD) que permite representar demanera clara los límites, responsabilidades e interacciones de cada contexto dentro de un sistema complejo. Su propósito es facilitar que losequipos construyan una visión compartida sobre el nombre y objetivo de cada contexto, las entidades y agregados que lo conforman, asícomo las reglas de negocio que gobiernan su funcionamiento. En esta sección se presentan los Bounded Context Canvases correspondientes a los contextos identificados en nuestro proyecto.
+
+
 
 <h3 id="252-context-mapping">2.5.2 Context Mapping</h3>
 
