@@ -475,13 +475,43 @@ El Bounded Context Canvas es una herramienta visual aplicada en el marco del Dom
 
 <h3 id="252-context-mapping">2.5.2 Context Mapping</h3>
 
+En esta sección, se ha definido la estructura estratégica de la solución mediante la identificación de los Bounded Contexts y sus relaciones. El proceso de diseño se centró en separar las preocupaciones de gestión de perfiles, la creación de ideas y el proceso de postulación/colaboración.
+
+Durante las sesiones de diseño, se respondieron algunas dudas para validar la robustez y definir las relaciones de los contextos:
+
+- ¿Qué pasaría si unimos Ideas Management con Exploration? 
+
+Se decidió mantenerlos separados. Mientras que Ideas Management se enfoca en la persistencia y reglas de publicación, Exploration se especializa en la visualización eficiente y búsqueda, permitiendo optimizar cada contexto de forma independiente.
+
+- ¿Qué pasaría si Collaboration dependiera directamente de Profile? 
+
+Para evitar que cambios en la estructura de datos del perfil (como nuevas redes sociales o formatos de interés) rompan la lógica de formación de equipos, se determinó el uso de una Anti-corruption Layer (ACL).
+
+- ¿Qué pasaría si aislamos el contexto de IAM? 
+
+Al ser una funcionalidad necesaria pero no el núcleo del negocio, se trata como un Generic Subdomain, permitiendo que el equipo se enfoque en el Core Domain: Collaboration.
+
+<img src="image/context_mapping.png" width="800">
+
 <h3 id="253-software-architecture">2.5.3 Software Architecture</h3>
 
 <h4 id="2531-software-architecture-context-level-diagrams">2.5.3.1 Software Architecture Context Level Diagrams</h4>
 
+Este diagrama muestra a IdeaForge como el sistema central que facilita la conexión entre ideas y colaboradores. El único actor, User, interactúa con el sistema para cumplir ambos roles (creador o colaborador).
+
+<img src="image/context_diagram.png" width="800">
+
 <h4 id="2532-software-architecture-container-level-diagrams">2.5.3.2 Software Architecture Container Level Diagrams</h4>
 
+Este diagrama se definen los cuatro contenedores principales para la interfaz responsiva, la aplicación movil, interfaz de la logica del negocio (API) y la base de datos. 
+
+<img src="image/container_diagram.png" width="800">
+
 <h4 id="2533-software-architecture-deployment-diagrams">2.5.3.3 Software Architecture Deployment Diagrams</h4>
+
+Este diagrama describe la distribución del entorno en la nube. Se visualizan nodos para el servidor de aplicaciones y nodos de base de datos gestionada, asegurando que los componentes de software se desplieguen sobre infraestructura escalable.
+
+<img src="image/deployment_diagram.png" width="800">
 
 <h2 id="26-tactical-level-domain-driven-design">2.6 Tactical-Level Domain-Driven Design</h2>
 
