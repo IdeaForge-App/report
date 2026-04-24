@@ -773,6 +773,14 @@ Implementa los casos de uso utilizando el patrón CQRS (Command Query Responsibi
 
 <h4 id="26x3-application-layer">2.6.5.3 Application Layer</h4>
 
+**Commands & Handlers:**
+* `ApplyCommand`: DTO para registrar una postulación.
+* `ApproveCommand`: DTO para aprobar a un candidato.
+* `ApproveCommandHandler`: Recupera la `Postulación`, llama a su método `accept()`, y delega al Aggregate `Equipo` la acción de `addMember()`.
+
+**Outbound Ports:**
+* `IPostulacionRepository` e `IEquipoRepository` para persistir los cambios de estado.
+
 <h4 id="26x4-infrastructure-layer">2.6.5.4 Infrastructure Layer</h4>
 
 <h4 id="26x5-bounded-context-software-architecture-component-level-diagrams">2.6.5.5 Bounded Context Software Architecture Component Level Diagrams</h4>
