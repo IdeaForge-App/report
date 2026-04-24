@@ -16,7 +16,30 @@
 
 <h3 id="112-perfiles-de-integrantes-del-equipo">1.1.2 Perfiles de integrantes del equipo</h3>
 
-<p><strong>Esta sección será completada por el equipo.</strong></p>
+<h3 id="112-perfiles-de-integrantes-del-equipo">1.1.2 Perfiles de integrantes del equipo</h3>
+
+<table border="1">
+  <tr>
+      <td style="text-align:center;"><img alt="Joan Elias Aguirre Eneque" src="https://github.com/user-attachments/assets/4fe255c8-f64a-4b0a-ae8f-c007c6f3a583" /></td>
+      <td><strong>Joan Elias Aguirre Eneque - u202315649</strong><br>Mi nombre es Joan Elias Aguirre Eneque, soy estudiante de Ingeniería de Software en la UPC. Me considero una persona responsable, colaborativa y con interés en el desarrollo de soluciones tecnológicas. Me gusta aprender nuevas herramientas, participar activamente en proyectos académicos y aportar ideas que contribuyan al cumplimiento de los objetivos del equipo.</td>
+  </tr>
+  <tr>
+      <td style="text-align:center;"><img alt="Johan Giovani Huaman Cuba" src="image/WhatsApp Image 2026-04-23 at 11.41.03 PM.jpeg" /></td>
+      <td><strong>Johan Giovani Huaman Cuba - u202417448</strong><br>Mi nombre es Johan Giovani Huaman Cuba, soy estudiante de Ingeniería de Software en la UPC. Tengo interés por la tecnología, la programación y el trabajo colaborativo. Me caracterizo por mi compromiso con las actividades asignadas, mi disposición para aprender y mi motivación por desarrollar proyectos que permitan aplicar conocimientos de ingeniería de software.</td>
+  </tr>
+  <tr>
+      <td style="text-align:center;"><img alt="César Augusto Navarro Correa" src="image/Screenshot_20260415_121545_Docs.png" /></td>
+      <td><strong>César Augusto Navarro Correa - u202310129</strong><br>Mi nombre es César Augusto Navarro Correa, soy estudiante de Ingeniería de Software en la UPC. Me interesa el análisis, diseño y desarrollo de soluciones digitales. Me considero una persona organizada, perseverante y orientada al aprendizaje continuo, con disposición para trabajar en equipo y contribuir al avance del proyecto.</td>
+  </tr>
+  <tr>
+      <td style="text-align:center;"><img alt="Eduardo Cossar" src="image/FotoEduardo.png" /></td>
+      <td><strong>Eduardo Cossar - u202312109</strong><br>Mi nombre es Eduardo Cossar. Soy estudiante de la carrera de Ingeniería de Software, tengo 20 años y actualmente estoy cursando el septimo ciclo en la UPC. Me considero una persona responsable y comprometida con un gran interés por la tecnología. Como integrante de este equipo, me comprometo a brindar todo mi apoyo y participación activa para afrontar los desafíos que se presenten y dar lo mejor de mí para lograr el éxito de este proyecto.</td>
+  </tr>
+  <tr>
+      <td style="text-align:center;"><img alt="Maria Fernanda Mostajo" src="image/FotoMariaFernanda.png" /></td>
+      <td><strong>Maria Fernanda Mostajo - u202312874</strong><br>Mi nombre es Maria Fernanda Mostajo, estoy estudiando la carrera de Ingeniería de Software en la UPC, tengo conocimientos en los lenguajes de programación C++, Python, HTML, CSS, JavaScript y SQL. Además, cuento con habilidades de trabajo en equipo, el cual me permitira realizar un buen trabajo y cumplir con los objetivos planteados en el tiempo establecido.</td>
+  </tr>
+</table>
 
 <h2 id="12-solution-profile">1.2 Solution Profile</h2>
 
