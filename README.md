@@ -703,6 +703,10 @@ El esquema de base de datos para el Bounded Context de Perfiles se muestra a con
 
 <h4 id="26x5-bounded-context-software-architecture-component-level-diagrams">2.6.3.5 Bounded Context Software Architecture Component Level Diagrams</h4>
 
+Este diagrama de componentes ilustra el flujo de gestión de ideas, desde que un emprendedor envía una propuesta a través de la API hasta que esta es procesada y almacenada en el repositorio de la infraestructura.
+
+![Ideas Management Component Diagram](image/Ideas_Components.png)
+
 <h4 id="26x6-bounded-context-software-architecture-code-level-diagrams">2.6.3.6 Bounded Context Software Architecture Code Level Diagrams</h4>
 
 <h5 id="26x61-bounded-context-domain-layer-class-diagrams">2.6.3.6.1 Bounded Context Domain Layer Class Diagrams</h5>
