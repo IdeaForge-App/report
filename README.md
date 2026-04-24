@@ -848,3 +848,7 @@ Este diagrama de clases de dominio modela las interacciones críticas de negocio
 ![Collaboration Class Diagram](image/collaboration-class.png)
 
 <h5 id="26x62-bounded-context-database-design-diagram">2.6.5.6.2 Bounded Context Database Design Diagram</h5>
+
+Finalmente, el diseño de la base de datos de Colaboración almacena las relaciones entre los equipos conformados y las solicitudes de los postulantes, manteniendo su independencia del resto del sistema.
+
+![Collaboration Database Diagram](image/collaboration-DB.png)
