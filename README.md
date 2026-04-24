@@ -711,6 +711,10 @@ Este diagrama de componentes ilustra el flujo de gestión de ideas, desde que un
 
 <h5 id="26x61-bounded-context-domain-layer-class-diagrams">2.6.3.6.1 Bounded Context Domain Layer Class Diagrams</h5>
 
+El diseño de clases de dominio para la Gestión de Ideas refleja cómo se encapsulan las reglas de negocio alrededor de la publicación de proyectos y la definición de roles requeridos.
+
+![Ideas Class Diagram](image/ideas-class.png)
+
 <h5 id="26x62-bounded-context-database-design-diagram">2.6.3.6.2 Bounded Context Database Design Diagram</h5>
 
 <h3 id="26x-bounded-context-bounded-context-iam">2.6.4 Bounded Context: Exploration</h3>
