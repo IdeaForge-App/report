@@ -580,6 +580,10 @@ A continuación, se presenta el diagrama de componentes a nivel de arquitectura 
 
 <h5 id="26x61-bounded-context-domain-layer-class-diagrams">2.6.1.6.1 Bounded Context Domain Layer Class Diagrams</h5>
 
+El siguiente diagrama de clases ilustra la estructura interna de la capa de dominio para IAM, definiendo el Aggregate Root `Account`, los Value Objects y los puertos (interfaces) que rigen el comportamiento del sistema.
+
+![IAM Class Diagram](image/IBM-class.png)
+
 <h5 id="26x62-bounded-context-database-design-diagram">2.6.1.6.2 Bounded Context Database Design Diagram</h5>
 
 <h3 id="26x-bounded-context-bounded-context-iam">2.6.2 Bounded Context: Profile</h3>
