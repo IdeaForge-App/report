@@ -717,6 +717,10 @@ El diseño de clases de dominio para la Gestión de Ideas refleja cómo se encap
 
 <h5 id="26x62-bounded-context-database-design-diagram">2.6.3.6.2 Bounded Context Database Design Diagram</h5>
 
+El siguiente modelo entidad-relación define las tablas responsables de almacenar las propuestas de proyectos y los perfiles que estas demandan.
+
+![Ideas Database Diagram](image/ideas-DB.png)
+
 <h3 id="26x-bounded-context-bounded-context-iam">2.6.4 Bounded Context: Exploration</h3>
 
 <h4 id="26x1-domain-layer">2.6.4.1 Domain Layer</h4>
