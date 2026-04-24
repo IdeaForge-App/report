@@ -586,6 +586,10 @@ El siguiente diagrama de clases ilustra la estructura interna de la capa de domi
 
 <h5 id="26x62-bounded-context-database-design-diagram">2.6.1.6.2 Bounded Context Database Design Diagram</h5>
 
+Para mantener la cohesión y el bajo acoplamiento, la persistencia de IAM está aislada. El siguiente diagrama representa el esquema de base de datos enfocado exclusivamente en las credenciales y autenticación de usuarios.
+
+![IAM Database Diagram](image/IAM-DB.png)
+
 <h3 id="26x-bounded-context-bounded-context-iam">2.6.2 Bounded Context: Profile</h3>
 
 <h4 id="26x1-domain-layer">2.6.2.1 Domain Layer</h4>
