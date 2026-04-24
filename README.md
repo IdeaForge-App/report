@@ -572,6 +572,10 @@ Implementa los casos de uso utilizando el patrón CQRS (Command Query Responsibi
 
 <h4 id="26x5-bounded-context-software-architecture-component-level-diagrams">2.6.1.5 Bounded Context Software Architecture Component Level Diagrams</h4>
 
+A continuación, se presenta el diagrama de componentes a nivel de arquitectura para el contexto de IAM. Este modelo detalla la interacción entre la capa de presentación (controladores), los manejadores de comandos en la capa de aplicación y los repositorios de infraestructura encargados de la persistencia y seguridad.
+
+![IAM Component Diagram](image/IAM_Components.png)
+
 <h4 id="26x6-bounded-context-software-architecture-code-level-diagrams">2.6.1.6 Bounded Context Software Architecture Code Level Diagrams</h4>
 
 <h5 id="26x61-bounded-context-domain-layer-class-diagrams">2.6.1.6.1 Bounded Context Domain Layer Class Diagrams</h5>
