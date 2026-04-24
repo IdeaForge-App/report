@@ -252,7 +252,249 @@
 
 <h3 id="222-registro-de-entrevistas">2.2.2 Registro de entrevistas</h3>
 
+<p>En esta sección se presenta el registro de las entrevistas realizadas a potenciales usuarios de IdeaForge. Las entrevistas permitieron recopilar información sobre las dificultades que enfrentan las personas al intentar formar equipos para desarrollar ideas de proyectos, así como las motivaciones de quienes buscan sumarse a iniciativas colaborativas.</p>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>1</td>
+    <th>Nombre</th>
+    <td>Joagquin Espinoza Arroyo</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>25</td>
+    <th>Distrito</th>
+    <td>San Juan de Lurigancho</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="image/Captura de pantalla 2026-04-24 065144.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+      Profesional con interés en desarrollar una idea de emprendimiento digital, pero con dificultades para encontrar personas con habilidades técnicas que puedan ayudarla a convertir su propuesta en un prototipo. Menciona que suele recurrir a contactos personales o redes sociales, pero no siempre encuentra personas realmente comprometidas. Valora una plataforma que permita publicar una idea de forma clara, indicar los roles que necesita y recibir postulaciones de personas interesadas en colaborar.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/personal/u202312874_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202312874_upc_edu_pe%2FDocuments%2FEntrevista+-+Segmento+1.mp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&ga=1&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.f1f99a77-8be8-4183-9007-e41746c67521">Ver grabación</a>
+    </td>
+  </tr>
+  <tr>
+    <th>Timing</th>
+    <td colspan="3">00:00 - 08:59</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>2</td>
+    <th>Nombre</th>
+    <td>Victor Solano Armas</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>24</td>
+    <th>Distrito</th>
+    <td>Ate</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="image/Captura de pantalla 2026-04-24 065206.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+      Usuaria con experiencia participando en trabajos académicos y proyectos colaborativos. Señala que muchas ideas se quedan solo en conversación porque no existe una forma ordenada de encontrar compañeros con intereses similares. Considera importante que una plataforma muestre el objetivo del proyecto, el nivel de avance, las habilidades requeridas y el compromiso esperado. Destaca que no se uniría a una idea si no entiende claramente qué rol tendría dentro del equipo.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://drive.google.com/file/d/1RnSN2WBJczdMUbi_PhhTiCZlAFM1D8dZ/view">Ver grabación</a>
+    </td>
+  </tr>
+  <tr>
+    <th>Timing</th>
+    <td colspan="3">00:00 - 11:02</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>3</td>
+    <th>Nombre</th>
+    <td>Sofía Martínez</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>25</td>
+    <th>Distrito</th>
+    <td>Ate</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="image/EntrevistaS11.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+      Emprendedora interesada en validar una idea de negocio con apoyo de personas de diferentes perfiles. Indica que una de sus principales barreras es no saber dónde encontrar colaboradores confiables fuera de su círculo cercano. También menciona que le gustaría revisar perfiles con habilidades, intereses y experiencia previa antes de invitar a alguien a participar. Considera útil que IdeaForge permita mostrar el estado actual de una idea y los perfiles que se necesitan para avanzar.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312109_upc_edu_pe/IQAhhLw1RUJ8RImftOIbigcHASxcjFstmEzSn-OgRNJY0cA">Ver grabación</a>
+    </td>
+  </tr>
+  <tr>
+    <th>Timing</th>
+    <td colspan="3">00:00 - 03:40</td>
+  </tr>
+</table>
+
+<br>
+
+
+<br>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>5</td>
+    <th>Nombre</th>
+    <td>José Luis Pereda</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>26</td>
+    <th>Distrito</th>
+    <td>Santiago de Surco</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="image/EntrevistaS21.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+      Profesional joven interesado en colaborar en proyectos secundarios relacionados con innovación y tecnología. Señala que suele encontrar ideas en redes sociales o grupos de conversación, pero la información normalmente está desordenada y no permite evaluar si el proyecto es serio. Indica que antes de unirse revisaría la descripción del problema, el objetivo, el equipo actual y el tiempo de dedicación esperado. Valora que la plataforma facilite una primera comunicación entre creador y postulante.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312109_upc_edu_pe/IQCtmBII4NWTRJOd1p_0c5ZHAY46u89SpsQGZTtVzpUvX8c">Ver grabación</a>
+    </td>
+  </tr>
+  <tr>
+    <th>Timing</th>
+    <td colspan="3">00:00 - 03:43</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>6</td>
+    <th>Nombre</th>
+    <td>Mario Espinoza</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>24</td>
+    <th>Distrito</th>
+    <td>Villa El Salvador</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="image/EntrevistaS22.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+      Usuario con interés en diseño, contenido digital y proyectos creativos. Comenta que le gustaría participar en ideas nuevas, pero le cuesta encontrar proyectos donde su aporte sea realmente necesario. Considera importante que cada publicación indique los roles disponibles, el tipo de colaboración y el estado de la idea. También menciona que guardaría proyectos interesantes para revisarlos después, por lo que valora funcionalidades de exploración, favoritos y postulación simple.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/r/personal/u202312109_upc_edu_pe/Documents/Entrevistas%20Segmento%202/Entrevista%20%231.mp4">Ver grabación</a>
+    </td>
+  </tr>
+  <tr>
+    <th>Timing</th>
+    <td colspan="3">00:00 - 04:50</td>
+  </tr>
+</table>
+
 <h3 id="223-analisis-de-entrevistas">2.2.3 Análisis de entrevistas</h3>
+
+<p>Las entrevistas se realizaron a un total de 6 participantes con perfiles relacionados al emprendimiento, la formación académica, la tecnología, la creatividad y la participación en proyectos colaborativos. El objetivo fue identificar patrones comunes sobre las dificultades para formar equipos, encontrar colaboradores adecuados y descubrir ideas en las que los usuarios puedan participar.</p>
+
+<h4>Segmento objetivo 1: Personas con ideas de proyecto que buscan formar equipo</h4>
+
+<p><strong>Total entrevistados asociados al segmento:</strong> 3</p>
+
+<p><strong>Edades referenciales:</strong> 28 a 41 años</p>
+
+<p><strong>Características objetivas:</strong></p>
+
+<ul>
+  <li>Los entrevistados manifestaron que cuentan o han contado con ideas de proyecto, pero no siempre tienen un equipo completo para desarrollarlas.</li>
+  <li>La búsqueda de colaboradores suele realizarse mediante contactos personales, redes sociales, grupos de WhatsApp, comunidades informales o recomendaciones.</li>
+  <li>Los perfiles más difíciles de encontrar son aquellos con habilidades complementarias, especialmente perfiles técnicos, de diseño, negocio o comunicación.</li>
+  <li>Existe una necesidad de mostrar la idea de forma clara, indicando objetivo, etapa de avance, roles buscados y expectativas de colaboración.</li>
+  <li>Los entrevistados consideran importante revisar información del posible colaborador antes de invitarlo a participar en un proyecto.</li>
+</ul>
+
+<p><strong>Características subjetivas:</strong></p>
+
+<ul>
+  <li>Los usuarios sienten frustración cuando una idea no avanza por falta de equipo o por no encontrar personas realmente interesadas.</li>
+  <li>Existe desconfianza al invitar personas externas si no se conoce su nivel de compromiso, habilidades o motivación.</li>
+  <li>Los entrevistados valoran una plataforma que ordene el proceso de búsqueda de colaboradores y reduzca la dependencia del círculo cercano.</li>
+  <li>La claridad y seriedad de la publicación son factores clave para que una idea resulte atractiva y genere postulaciones.</li>
+</ul>
+
+<p><strong>Conclusiones del segmento:</strong></p>
+
+<ul>
+  <li>IdeaForge debería permitir que los creadores publiquen ideas de manera estructurada, incluyendo descripción, objetivo, etapa de avance y roles necesarios.</li>
+  <li>La plataforma debe ayudar a generar confianza mediante perfiles claros de los usuarios, donde se visualicen habilidades, intereses y experiencia relevante.</li>
+  <li>El valor principal para este segmento es encontrar personas compatibles que permitan pasar de la idea a una posible ejecución.</li>
+  <li>Una publicación incompleta o poco clara puede reducir el interés de los colaboradores, por lo que el formulario de creación de ideas debe guiar al usuario paso a paso.</li>
+</ul>
+
+<h4>Segmento objetivo 2: Personas con habilidades o intereses que buscan unirse a proyectos</h4>
+
+<p><strong>Total entrevistados asociados al segmento:</strong> 3</p>
+
+<p><strong>Edades referenciales:</strong> 25 a 29 años</p>
+
+<p><strong>Características objetivas:</strong></p>
+
+<ul>
+  <li>Los entrevistados cuentan con habilidades o intereses que podrían aportar a proyectos, como tecnología, diseño, comunicación, organización o creatividad.</li>
+  <li>Actualmente encuentran oportunidades de colaboración de forma dispersa en redes sociales, grupos privados o conversaciones informales.</li>
+  <li>Antes de sumarse a una idea, necesitan conocer el propósito del proyecto, el rol requerido, el equipo actual y el nivel de avance.</li>
+  <li>Existe interés por participar en proyectos reales para ganar experiencia, construir portafolio, aprender o formar parte de iniciativas con potencial.</li>
+  <li>Los entrevistados valoran funciones de exploración, filtros, favoritos y postulación simple.</li>
+</ul>
+
+<p><strong>Características subjetivas:</strong></p>
+
+<ul>
+  <li>Los usuarios sienten incertidumbre cuando una idea no explica claramente qué necesita o qué se espera de los colaboradores.</li>
+  <li>Existe una preocupación por invertir tiempo en proyectos poco serios, mal organizados o sin un objetivo definido.</li>
+  <li>Los entrevistados valoran una experiencia sencilla que les permita comparar ideas y decidir rápidamente si desean participar.</li>
+  <li>La motivación para unirse a proyectos no siempre es económica; también se relaciona con aprendizaje, experiencia, portafolio, contactos y afinidad con la idea.</li>
+</ul>
+
+<p><strong>Conclusiones del segmento:</strong></p>
+
+<ul>
+  <li>IdeaForge debe ofrecer una sección de exploración clara donde los usuarios puedan descubrir proyectos según intereses, habilidades y roles disponibles.</li>
+  <li>La información mínima de cada proyecto debe permitir evaluar rápidamente si vale la pena postularse.</li>
+  <li>La postulación debe ser simple, directa y acompañada de una primera vía de comunicación entre creador y colaborador potencial.</li>
+  <li>El sistema debería permitir guardar proyectos para revisarlos después, ya que no todos los usuarios deciden postularse en el primer contacto.</li>
+</ul>
+
+<h4>Conclusión general de las entrevistas</h4>
+
+<p>Los resultados de las entrevistas permiten concluir que IdeaForge responde a una necesidad real de conexión entre personas con ideas y personas con habilidades o intereses para colaborar. En ambos segmentos se identificó que las alternativas actuales, como redes sociales, grupos de mensajería o contactos personales, no resuelven de forma ordenada el proceso de formación de equipos. Por ello, la plataforma debe enfocarse en facilitar publicaciones claras, perfiles confiables, exploración de proyectos, postulación simple y comunicación inicial entre usuarios. Estas necesidades se alinean directamente con la propuesta central de IdeaForge: formar equipos alrededor de ideas en etapa temprana.</p>
 
 <h2 id="23-needfinding">2.3 Needfinding</h2>
 
