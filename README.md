@@ -780,6 +780,10 @@ A diferencia de otros contextos, el modelo de clases de Exploración se basa fue
 
 <h5 id="26x62-bounded-context-database-design-diagram">2.6.4.6.2 Bounded Context Database Design Diagram</h5>
 
+Para maximizar el rendimiento en las búsquedas, este esquema de base de datos utiliza vistas desnormalizadas. El diseño se ilustra en el siguiente diagrama.
+
+![Exploration Database Diagram](image/exploration-DB.png)
+
 <h3 id="26x-bounded-context-bounded-context-iam">2.6.5 Bounded Context: Collaboration</h3>
 
 <h4 id="26x1-domain-layer">2.6.5.1 Domain Layer</h4>
