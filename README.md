@@ -654,6 +654,10 @@ En este diagrama de clases se detallan las entidades que conforman el perfil del
 
 <h5 id="26x62-bounded-context-database-design-diagram">2.6.2.6.2 Bounded Context Database Design Diagram</h5>
 
+El esquema de base de datos para el Bounded Context de Perfiles se muestra a continuación, estructurado para persistir de manera eficiente la información pública y técnica de los colaboradores.
+
+![Profile Database Diagram](image/profile-DB.png)
+
 <h3 id="26x-bounded-context-bounded-context-iam">2.6.3 Bounded Context: Ideas Management</h3>
 
 <h4 id="26x1-domain-layer">2.6.3.1 Domain Layer</h4>
