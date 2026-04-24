@@ -653,7 +653,7 @@ Estos términos no representan adecuadamente la propuesta de valor de **deaForge
 
 <h2 id="242-impact-mapping">2.4.2 Impact Mapping</h2>
 
-<p><strong>Lo haremos después.</strong></p>
+  <img src="https://files.catbox.moe/2q9nq2.png" alt="Logo UPC" style="max-width: 600; width: 500%; height: auto; display: inline-block;" />
 
 <h2 id="243-product-backlog">2.4.3 Product Backlog</h2>
 
