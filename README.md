@@ -766,6 +766,10 @@ El siguiente modelo entidad-relación define las tablas responsables de almacena
 
 <h4 id="26x5-bounded-context-software-architecture-component-level-diagrams">2.6.4.5 Bounded Context Software Architecture Component Level Diagrams</h4>
 
+El diagrama de componentes del contexto de Exploración muestra la arquitectura optimizada para la lectura rápida (Query side), encargada de filtrar y devolver el catálogo de ideas a los estudiantes.
+
+![Exploration Component Diagram](image/Exploration_Components.png)
+
 <h4 id="26x6-bounded-context-software-architecture-code-level-diagrams">2.6.4.6 Bounded Context Software Architecture Code Level Diagrams</h4>
 
 <h5 id="26x61-bounded-context-domain-layer-class-diagrams">2.6.4.6.1 Bounded Context Domain Layer Class Diagrams</h5>
