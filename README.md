@@ -640,6 +640,10 @@ Para mantener la cohesión y el bajo acoplamiento, la persistencia de IAM está 
 
 <h4 id="26x5-bounded-context-software-architecture-component-level-diagrams">2.6.2.5 Bounded Context Software Architecture Component Level Diagrams</h4>
 
+El siguiente diagrama de componentes expone la estructura del contexto de Perfiles, mostrando cómo se orquesta la lectura y actualización de las biografías y habilidades de los usuarios a través de la capa de aplicación.
+
+![Profile Component Diagram](image/Profile_Components.png)
+
 <h4 id="26x6-bounded-context-software-architecture-code-level-diagrams">2.6.2.6 Bounded Context Software Architecture Code Level Diagrams</h4>
 
 <h5 id="26x61-bounded-context-domain-layer-class-diagrams">2.6.2.6.1 Bounded Context Domain Layer Class Diagrams</h5>
