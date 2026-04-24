@@ -567,6 +567,9 @@ Implementa los casos de uso utilizando el patrón CQRS (Command Query Responsibi
 
 <h4 id="26x4-infrastructure-layer">2.6.1.4 Infrastructure Layer</h4>
 
+* **Persistence:** `AccountPostgresRepository` implementa `IAccountRepository` usando un ORM (ej. TypeORM/Prisma) para PostgreSQL.
+* **Security:** `BcryptPasswordHasher` implementa `IPasswordHasher` y `JwtTokenProvider` implementa `ITokenProvider`.
+
 <h4 id="26x5-bounded-context-software-architecture-component-level-diagrams">2.6.1.5 Bounded Context Software Architecture Component Level Diagrams</h4>
 
 <h4 id="26x6-bounded-context-software-architecture-code-level-diagrams">2.6.1.6 Bounded Context Software Architecture Code Level Diagrams</h4>
