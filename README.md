@@ -554,23 +554,16 @@ Este diagrama describe la distribución del entorno en la nube. Se visualizan no
 
 Implementa los casos de uso utilizando el patrón CQRS (Command Query Responsibility Segregation). Define los puertos (interfaces) que la infraestructura deberá implementar.
 
-Commands & Handlers (Mutaciones):
+**Commands & Handlers (Mutaciones):**
+* `RegisterAccountCommand`: DTO interno con email y password.
+* `RegisterAccountCommandHandler`: Orquesta el flujo: verifica si el email existe mediante el repositorio, cifra la contraseña usando el puerto `IPasswordHasher`, crea el Aggregate `Account` y lo persiste.
+* `LoginCommand`: DTO interno con email y password.
+* `LoginCommandHandler`: Busca la cuenta, verifica el hash de la contraseña y genera un token delegando al puerto `ITokenProvider`.
 
-RegisterAccountCommand: DTO interno con email y password.
-
-RegisterAccountCommandHandler: Orquesta el flujo: verifica si el email existe mediante el repositorio, cifra la contraseña usando el puerto IPasswordHasher, crea el Aggregate Account y lo persiste.
-
-LoginCommand: DTO interno con email y password.
-
-LoginCommandHandler: Busca la cuenta, verifica el hash de la contraseña y genera un token delegando al puerto ITokenProvider.
-
-Outbound Ports (Interfaces):
-
-IAccountRepository: Contrato para la persistencia (ej. save(), findByEmail()).
-
-IPasswordHasher: Contrato para el cifrado (ej. hash(), compare()).
-
-ITokenProvider: Contrato para la generación de JWT (ej. generateToken(Account)).
+**Outbound Ports (Interfaces):**
+* `IAccountRepository`: Contrato para la persistencia (ej. `save()`, `findByEmail()`).
+* `IPasswordHasher`: Contrato para el cifrado (ej. `hash()`, `compare()`).
+* `ITokenProvider`: Contrato para la generación de JWT (ej. `generateToken(Account)`).
 
 <h4 id="26x4-infrastructure-layer">2.6.1.4 Infrastructure Layer</h4>
 
