@@ -774,6 +774,10 @@ El diagrama de componentes del contexto de Exploración muestra la arquitectura 
 
 <h5 id="26x61-bounded-context-domain-layer-class-diagrams">2.6.4.6.1 Bounded Context Domain Layer Class Diagrams</h5>
 
+A diferencia de otros contextos, el modelo de clases de Exploración se basa fuertemente en modelos de lectura (Read Models) y criterios de filtrado, como se observa en el siguiente diagrama.
+
+![Exploration Class Diagram](image/exploration-class.png)
+
 <h5 id="26x62-bounded-context-database-design-diagram">2.6.4.6.2 Bounded Context Database Design Diagram</h5>
 
 <h3 id="26x-bounded-context-bounded-context-iam">2.6.5 Bounded Context: Collaboration</h3>
