@@ -675,6 +675,8 @@ Implementa los casos de uso utilizando el patrón CQRS (Command Query Responsibi
 
 <h4 id="26x4-infrastructure-layer">2.6.3.4 Infrastructure Layer</h4>
 
+* **Persistence:** `IdeaPostgresRepository` implementa `IIdeaRepository`, almacenando las ideas y sus roles asociados.
+
 <h4 id="26x5-bounded-context-software-architecture-component-level-diagrams">2.6.3.5 Bounded Context Software Architecture Component Level Diagrams</h4>
 
 <h4 id="26x6-bounded-context-software-architecture-code-level-diagrams">2.6.3.6 Bounded Context Software Architecture Code Level Diagrams</h4>
