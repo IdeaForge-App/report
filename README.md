@@ -552,6 +552,26 @@ Este diagrama describe la distribución del entorno en la nube. Se visualizan no
 
 <h4 id="26x3-application-layer">2.6.1.3 Application Layer</h4>
 
+Implementa los casos de uso utilizando el patrón CQRS (Command Query Responsibility Segregation). Define los puertos (interfaces) que la infraestructura deberá implementar.
+
+Commands & Handlers (Mutaciones):
+
+RegisterAccountCommand: DTO interno con email y password.
+
+RegisterAccountCommandHandler: Orquesta el flujo: verifica si el email existe mediante el repositorio, cifra la contraseña usando el puerto IPasswordHasher, crea el Aggregate Account y lo persiste.
+
+LoginCommand: DTO interno con email y password.
+
+LoginCommandHandler: Busca la cuenta, verifica el hash de la contraseña y genera un token delegando al puerto ITokenProvider.
+
+Outbound Ports (Interfaces):
+
+IAccountRepository: Contrato para la persistencia (ej. save(), findByEmail()).
+
+IPasswordHasher: Contrato para el cifrado (ej. hash(), compare()).
+
+ITokenProvider: Contrato para la generación de JWT (ej. generateToken(Account)).
+
 <h4 id="26x4-infrastructure-layer">2.6.1.4 Infrastructure Layer</h4>
 
 <h4 id="26x5-bounded-context-software-architecture-component-level-diagrams">2.6.1.5 Bounded Context Software Architecture Component Level Diagrams</h4>
