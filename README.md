@@ -410,11 +410,293 @@ Estos términos no representan adecuadamente la propuesta de valor de **deaForge
 
 <h2 id="24-requirements-specification">2.4 Requirements specification</h2>
 
-<h3 id="241-user-stories">2.4.1 User Stories</h3>
+<h2 id="241-user-stories">2.4.1 User Stories</h2>
 
-<h3 id="242-impact-mapping">2.4.2 Impact Mapping</h3>
+<p>En esta sección se presentan las épicas del producto IdeaForge, redactadas para organizar los requisitos funcionales y no funcionales que guían el alcance del proyecto.</p>
 
-<h3 id="243-product-backlog">2.4.3 Product Backlog</h3>
+<h3 id="2411-epics">2.4.1.1 Epics</h3>
+
+<table border="1" style="border-collapse: collapse; width: 100%; font-size: 0.95rem;">
+  <thead>
+    <tr>
+      <th style="padding: 0.5rem;">Epic ID</th>
+      <th style="padding: 0.5rem;">Título</th>
+      <th style="padding: 0.5rem;">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 0.5rem;">E01</td>
+      <td style="padding: 0.5rem;">Gestión de cuentas y perfiles</td>
+      <td style="padding: 0.5rem;">Como usuario de IdeaForge, quiero registrarme, autenticarme y gestionar mi perfil, para participar dentro de la plataforma con información clara sobre mis intereses y habilidades.</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">E02</td>
+      <td style="padding: 0.5rem;">Publicación y gestión de ideas</td>
+      <td style="padding: 0.5rem;">Como creador de ideas, quiero publicar, editar y administrar mis proyectos, para atraer colaboradores adecuados y dar visibilidad a mis iniciativas.</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">E03</td>
+      <td style="padding: 0.5rem;">Exploración y descubrimiento</td>
+      <td style="padding: 0.5rem;">Como usuario interesado en colaborar, quiero explorar ideas y filtrarlas por criterios relevantes, para encontrar proyectos alineados con mis habilidades e intereses.</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">E04</td>
+      <td style="padding: 0.5rem;">Postulación y conexión entre usuarios</td>
+      <td style="padding: 0.5rem;">Como usuario, quiero mostrar interés en proyectos y comunicarme con otros participantes, para formar equipos y coordinar colaboraciones.</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">E05</td>
+      <td style="padding: 0.5rem;">Confianza, visibilidad y seguimiento</td>
+      <td style="padding: 0.5rem;">Como usuario, quiero visualizar avances, estados y señales de seriedad de los proyectos, para tomar mejores decisiones al crear o unirme a una idea.</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">E06</td>
+      <td style="padding: 0.5rem;">Administración y seguridad de la plataforma</td>
+      <td style="padding: 0.5rem;">Como administrador de la plataforma, quiero gestionar moderación, sesiones y seguridad básica, para asegurar una experiencia confiable para todos los usuarios.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="2412-user-stories">2.4.1.2 User Stories</h3>
+
+<p>Requisitos definidos junto con el conjunto de User Stories y Epics para los requisitos identificados. Los User Stories incluyen Acceptance Criteria.</p>
+
+<table border="1" style="border-collapse: collapse; width: 100%; font-size: 0.95rem;">
+  <thead>
+    <tr>
+      <th style="padding: 0.5rem;">User Story ID</th>
+      <th style="padding: 0.5rem;">Título</th>
+      <th style="padding: 0.5rem;">Descripción</th>
+      <th style="padding: 0.5rem;">Criterios de Aceptación</th>
+      <th style="padding: 0.5rem;">Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 0.5rem;">US01</td>
+      <td style="padding: 0.5rem;">Registro de usuario</td>
+      <td style="padding: 0.5rem;">Como visitante, quiero crear una cuenta en IdeaForge, para acceder a las funcionalidades de la plataforma.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Registro exitoso<br>DADO que el visitante completa el formulario con datos válidos<br>CUANDO presiona registrarse<br>ENTONCES el sistema debe crear su cuenta correctamente<br><br>Escenario 2: Validación de campos obligatorios<br>DADO que el visitante deja campos vacíos<br>CUANDO intenta registrarse<br>ENTONCES el sistema debe mostrar mensajes de validación<br><br>Escenario 3: Correo duplicado<br>DADO que el correo ya existe en el sistema<br>CUANDO intenta crear una nueva cuenta<br>ENTONCES el sistema debe rechazar el registro por duplicidad</td>
+      <td style="padding: 0.5rem;">E01</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">US02</td>
+      <td style="padding: 0.5rem;">Inicio de sesión</td>
+      <td style="padding: 0.5rem;">Como usuario registrado, quiero iniciar sesión, para acceder a mi cuenta y mis funcionalidades personalizadas.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Inicio de sesión correcto<br>DADO que el usuario ingresa credenciales válidas<br>CUANDO presiona iniciar sesión<br>ENTONCES el sistema debe permitir el acceso<br><br>Escenario 2: Credenciales inválidas<br>DADO que el usuario ingresa datos incorrectos<br>CUANDO intenta autenticarse<br>ENTONCES el sistema debe mostrar un mensaje de error<br><br>Escenario 3: Redirección al panel principal<br>DADO que el usuario inició sesión exitosamente<br>CUANDO ingresa a la plataforma<br>ENTONCES el sistema debe llevarlo a su vista principal</td>
+      <td style="padding: 0.5rem;">E01</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">US03</td>
+      <td style="padding: 0.5rem;">Edición de perfil</td>
+      <td style="padding: 0.5rem;">Como usuario, quiero editar mi perfil, para mostrar mis habilidades, intereses y una descripción personal.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Actualizar perfil correctamente<br>DADO que el usuario modifica sus datos<br>CUANDO guarda los cambios<br>ENTONCES el sistema debe actualizar su perfil<br><br>Escenario 2: Visualizar cambios realizados<br>DADO que el perfil fue actualizado<br>CUANDO el usuario o terceros lo consultan<br>ENTONCES deben visualizar la información actualizada<br><br>Escenario 3: Validar formato de campos<br>DADO que el usuario ingresa datos inválidos<br>CUANDO intenta guardar<br>ENTONCES el sistema debe mostrar validaciones correspondientes</td>
+      <td style="padding: 0.5rem;">E01</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">US04</td>
+      <td style="padding: 0.5rem;">Selección de intereses y habilidades</td>
+      <td style="padding: 0.5rem;">Como usuario, quiero registrar mis intereses y habilidades, para recibir una experiencia más alineada a mi perfil.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Guardar intereses y habilidades<br>DADO que el usuario selecciona opciones válidas<br>CUANDO confirma su elección<br>ENTONCES el sistema debe guardar esa información en su perfil<br><br>Escenario 2: Editar selección previa<br>DADO que el usuario ya tiene intereses registrados<br>CUANDO decide modificarlos<br>ENTONCES el sistema debe actualizar la selección<br><br>Escenario 3: Mostrar coincidencias relevantes<br>DADO que el usuario completó su perfil<br>CUANDO explora la plataforma<br>ENTONCES el sistema debe poder usar esa información para mejorar recomendaciones o filtros</td>
+      <td style="padding: 0.5rem;">E01</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">US05</td>
+      <td style="padding: 0.5rem;">Creación de idea o proyecto</td>
+      <td style="padding: 0.5rem;">Como creador, quiero publicar una idea o proyecto, para atraer personas interesadas en unirse.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Publicación exitosa<br>DADO que el creador completa el formulario con datos válidos<br>CUANDO publica la idea<br>ENTONCES el sistema debe registrar el proyecto correctamente<br><br>Escenario 2: Validar campos obligatorios<br>DADO que faltan datos esenciales del proyecto<br>CUANDO intenta publicarlo<br>ENTONCES el sistema debe bloquear la acción y mostrar errores<br><br>Escenario 3: Mostrar proyecto publicado<br>DADO que la idea fue publicada<br>CUANDO otros usuarios exploran proyectos<br>ENTONCES el sistema debe mostrarla en el listado correspondiente</td>
+      <td style="padding: 0.5rem;">E02</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">US06</td>
+      <td style="padding: 0.5rem;">Edición de idea o proyecto</td>
+      <td style="padding: 0.5rem;">Como creador, quiero editar la información de mi proyecto, para mantenerla actualizada.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Editar proyecto correctamente<br>DADO que el creador ingresa a su proyecto<br>CUANDO modifica datos y guarda<br>ENTONCES el sistema debe actualizar la información<br><br>Escenario 2: Restringir edición a propietario<br>DADO que un usuario no es dueño del proyecto<br>CUANDO intenta editarlo<br>ENTONCES el sistema debe denegar el acceso<br><br>Escenario 3: Mostrar cambios actualizados<br>DADO que el proyecto fue editado<br>CUANDO otros usuarios lo consultan<br>ENTONCES deben ver la versión más reciente</td>
+      <td style="padding: 0.5rem;">E02</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">US07</td>
+      <td style="padding: 0.5rem;">Eliminación o desactivación de proyecto</td>
+      <td style="padding: 0.5rem;">Como creador, quiero desactivar o eliminar mi proyecto, para dejar de mostrarlo cuando ya no esté disponible.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Desactivar proyecto<br>DADO que el creador selecciona desactivar<br>CUANDO confirma la acción<br>ENTONCES el sistema debe ocultar el proyecto del listado público<br><br>Escenario 2: Confirmar eliminación<br>DADO que el creador desea eliminar el proyecto<br>CUANDO presiona eliminar<br>ENTONCES el sistema debe solicitar confirmación previa<br><br>Escenario 3: Restringir eliminación a propietario<br>DADO que otro usuario intenta eliminar un proyecto ajeno<br>CUANDO ejecuta la acción<br>ENTONCES el sistema debe rechazarla</td>
+      <td style="padding: 0.5rem;">E02</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">US08</td>
+      <td style="padding: 0.5rem;">Definición de roles buscados</td>
+      <td style="padding: 0.5rem;">Como creador, quiero indicar qué roles busco para mi proyecto, para atraer colaboradores adecuados.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Registrar roles buscados<br>DADO que el creador completa la sección de roles<br>CUANDO guarda el proyecto<br>ENTONCES el sistema debe mostrar los roles requeridos<br><br>Escenario 2: Editar roles requeridos<br>DADO que el creador cambia las necesidades de su proyecto<br>CUANDO actualiza la información<br>ENTONCES el sistema debe reflejar los nuevos roles<br><br>Escenario 3: Mostrar roles a los postulantes<br>DADO que un usuario consulta el proyecto<br>CUANDO revisa su detalle<br>ENTONCES debe visualizar claramente los perfiles buscados</td>
+      <td style="padding: 0.5rem;">E02</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">US09</td>
+      <td style="padding: 0.5rem;">Exploración de proyectos</td>
+      <td style="padding: 0.5rem;">Como usuario, quiero explorar ideas publicadas, para descubrir proyectos que me interesen.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Listar proyectos disponibles<br>DADO que existen proyectos activos<br>CUANDO el usuario ingresa a la sección de exploración<br>ENTONCES el sistema debe mostrar el listado de ideas publicadas<br><br>Escenario 2: Ocultar proyectos inactivos<br>DADO que un proyecto está desactivado<br>CUANDO el usuario explora ideas<br>ENTONCES el sistema no debe mostrarlo como disponible<br><br>Escenario 3: Acceder al detalle del proyecto<br>DADO que el usuario encuentra un proyecto interesante<br>CUANDO selecciona verlo<br>ENTONCES el sistema debe mostrar su información detallada</td>
+      <td style="padding: 0.5rem;">E03</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">US10</td>
+      <td style="padding: 0.5rem;">Búsqueda por palabra clave</td>
+      <td style="padding: 0.5rem;">Como usuario, quiero buscar proyectos por palabras clave, para encontrar ideas relacionadas con mis intereses.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Buscar proyectos por término<br>DADO que el usuario escribe una palabra clave<br>CUANDO ejecuta la búsqueda<br>ENTONCES el sistema debe mostrar proyectos coincidentes<br><br>Escenario 2: Manejar búsqueda sin resultados<br>DADO que no existen proyectos coincidentes<br>CUANDO el usuario realiza la búsqueda<br>ENTONCES el sistema debe informar que no se encontraron resultados<br><br>Escenario 3: Limpiar búsqueda<br>DADO que el usuario desea volver al listado general<br>CUANDO limpia el término buscado<br>ENTONCES el sistema debe mostrar nuevamente los proyectos disponibles</td>
+      <td style="padding: 0.5rem;">E03</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">US11</td>
+      <td style="padding: 0.5rem;">Filtrado por rol, habilidad o interés</td>
+      <td style="padding: 0.5rem;">Como usuario, quiero filtrar proyectos según rol, habilidad o interés, para encontrar oportunidades más relevantes.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Aplicar filtros válidos<br>DADO que el usuario selecciona filtros disponibles<br>CUANDO los aplica<br>ENTONCES el sistema debe mostrar solo proyectos relevantes<br><br>Escenario 2: Combinar varios filtros<br>DADO que el usuario selecciona más de un criterio<br>CUANDO ejecuta el filtrado<br>ENTONCES el sistema debe combinar correctamente los resultados<br><br>Escenario 3: Restablecer filtros<br>DADO que el usuario quiere volver a la vista completa<br>CUANDO elimina los filtros aplicados<br>ENTONCES el sistema debe mostrar todos los proyectos activos</td>
+      <td style="padding: 0.5rem;">E03</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">US12</td>
+      <td style="padding: 0.5rem;">Visualización del detalle de un proyecto</td>
+      <td style="padding: 0.5rem;">Como usuario, quiero ver el detalle completo de un proyecto, para evaluar si me interesa participar.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Mostrar información principal<br>DADO que el usuario ingresa al detalle de un proyecto<br>CUANDO lo consulta<br>ENTONCES el sistema debe mostrar descripción, objetivo, roles buscados y creador<br><br>Escenario 2: Mostrar información adicional relevante<br>DADO que el proyecto tiene datos complementarios<br>CUANDO el usuario lo revisa<br>ENTONCES el sistema debe mostrar categoría, estado y expectativas de colaboración<br><br>Escenario 3: Restringir acceso a proyectos eliminados<br>DADO que el proyecto ya no está disponible<br>CUANDO el usuario intenta acceder al detalle<br>ENTONCES el sistema debe informar que el proyecto no está disponible</td>
+      <td style="padding: 0.5rem;">E03</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">US13</td>
+      <td style="padding: 0.5rem;">Postulación a proyecto</td>
+      <td style="padding: 0.5rem;">Como usuario interesado, quiero postularme a un proyecto, para expresar mi interés en participar.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Postulación exitosa<br>DADO que el usuario revisa un proyecto activo<br>CUANDO presiona postularme y confirma<br>ENTONCES el sistema debe registrar su interés<br><br>Escenario 2: Evitar postulación duplicada<br>DADO que el usuario ya se postuló al proyecto<br>CUANDO intenta hacerlo nuevamente<br>ENTONCES el sistema debe bloquear la duplicidad<br><br>Escenario 3: Restringir postulación en proyecto inactivo<br>DADO que el proyecto está cerrado o inactivo<br>CUANDO el usuario intenta postularse<br>ENTONCES el sistema debe impedir la acción</td>
+      <td style="padding: 0.5rem;">E04</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">US14</td>
+      <td style="padding: 0.5rem;">Visualización de postulantes</td>
+      <td style="padding: 0.5rem;">Como creador, quiero ver quiénes se han postulado a mi proyecto, para evaluar posibles colaboradores.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Ver lista de postulantes<br>DADO que existen usuarios postulados<br>CUANDO el creador consulta su proyecto<br>ENTONCES el sistema debe mostrar la lista correspondiente<br><br>Escenario 2: Ver perfil del postulante<br>DADO que el creador revisa un postulante específico<br>CUANDO abre su perfil<br>ENTONCES debe visualizar sus habilidades e intereses<br><br>Escenario 3: Restringir acceso a terceros<br>DADO que un usuario ajeno intenta ver postulantes<br>CUANDO ingresa a esa sección<br>ENTONCES el sistema debe denegar el acceso</td>
+      <td style="padding: 0.5rem;">E04</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">US15</td>
+      <td style="padding: 0.5rem;">Aceptación o rechazo de postulaciones</td>
+      <td style="padding: 0.5rem;">Como creador, quiero aceptar o rechazar postulaciones, para gestionar quién se une a mi proyecto.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Aceptar postulante<br>DADO que existe una postulación pendiente<br>CUANDO el creador la acepta<br>ENTONCES el sistema debe registrar al usuario como integrante o aceptado<br><br>Escenario 2: Rechazar postulante<br>DADO que el creador decide no continuar con una postulación<br>CUANDO la rechaza<br>ENTONCES el sistema debe actualizar su estado<br><br>Escenario 3: Mostrar estado actualizado<br>DADO que la postulación fue gestionada<br>CUANDO el creador o postulante consultan su estado<br>ENTONCES el sistema debe reflejar la decisión tomada</td>
+      <td style="padding: 0.5rem;">E04</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">US16</td>
+      <td style="padding: 0.5rem;">Mensajería entre creador y postulante</td>
+      <td style="padding: 0.5rem;">Como usuario, quiero intercambiar mensajes con otros participantes, para conversar sobre una posible colaboración.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Enviar mensaje<br>DADO que existe relación entre proyecto y usuario interesado<br>CUANDO uno de ellos redacta y envía un mensaje<br>ENTONCES el sistema debe registrarlo y mostrarlo en la conversación<br><br>Escenario 2: Visualizar historial de mensajes<br>DADO que existen mensajes previos<br>CUANDO los usuarios abren la conversación<br>ENTONCES deben visualizar el historial correspondiente<br><br>Escenario 3: Restringir mensajes vacíos<br>DADO que el usuario intenta enviar un mensaje sin contenido<br>CUANDO presiona enviar<br>ENTONCES el sistema debe bloquear la acción</td>
+      <td style="padding: 0.5rem;">E04</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">US17</td>
+      <td style="padding: 0.5rem;">Notificaciones de actividad</td>
+      <td style="padding: 0.5rem;">Como usuario, quiero recibir notificaciones de actividades relevantes, para mantenerme informado sobre proyectos y postulaciones.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Notificar nueva postulación<br>DADO que un usuario se postula a un proyecto<br>CUANDO la acción se registra<br>ENTONCES el creador debe recibir una notificación<br><br>Escenario 2: Notificar decisión sobre postulación<br>DADO que el creador acepta o rechaza una postulación<br>CUANDO confirma su decisión<br>ENTONCES el postulante debe recibir una notificación<br><br>Escenario 3: Notificar nuevos mensajes<br>DADO que un usuario recibe un mensaje<br>CUANDO el mensaje se envía correctamente<br>ENTONCES el sistema debe generar una notificación de conversación</td>
+      <td style="padding: 0.5rem;">E04</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">US18</td>
+      <td style="padding: 0.5rem;">Marcado de proyecto favorito o guardado</td>
+      <td style="padding: 0.5rem;">Como usuario, quiero guardar proyectos que me interesan, para revisarlos después.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Guardar proyecto<br>DADO que el usuario encuentra una idea interesante<br>CUANDO presiona guardar<br>ENTONCES el sistema debe añadir el proyecto a su lista de guardados<br><br>Escenario 2: Quitar proyecto guardado<br>DADO que el proyecto ya está guardado<br>CUANDO el usuario decide retirarlo<br>ENTONCES el sistema debe eliminarlo de la lista<br><br>Escenario 3: Consultar lista de guardados<br>DADO que el usuario tiene proyectos almacenados<br>CUANDO accede a su sección correspondiente<br>ENTONCES debe visualizar todos los proyectos guardados</td>
+      <td style="padding: 0.5rem;">E03</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">US19</td>
+      <td style="padding: 0.5rem;">Visualización de estado del proyecto</td>
+      <td style="padding: 0.5rem;">Como usuario, quiero ver el estado actual de un proyecto, para saber si sigue abierto a colaboradores.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Mostrar estado del proyecto<br>DADO que el proyecto tiene un estado definido<br>CUANDO el usuario consulta su detalle<br>ENTONCES el sistema debe mostrar si está abierto, en progreso o cerrado<br><br>Escenario 2: Actualizar estado por parte del creador<br>DADO que el creador modifica el estado<br>CUANDO guarda el cambio<br>ENTONCES el sistema debe reflejarlo inmediatamente<br><br>Escenario 3: Restringir postulación según estado<br>DADO que el proyecto está cerrado<br>CUANDO un usuario intenta postularse<br>ENTONCES el sistema debe bloquear la acción</td>
+      <td style="padding: 0.5rem;">E05</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">US20</td>
+      <td style="padding: 0.5rem;">Visualización de avance del proyecto</td>
+      <td style="padding: 0.5rem;">Como usuario, quiero ver el nivel de avance o madurez de un proyecto, para evaluar mejor su seriedad y potencial.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Registrar etapa del proyecto<br>DADO que el creador define el nivel de avance<br>CUANDO guarda la información<br>ENTONCES el sistema debe mostrar la etapa correspondiente<br><br>Escenario 2: Visualizar etapa desde el detalle<br>DADO que el usuario consulta un proyecto<br>CUANDO revisa su detalle<br>ENTONCES debe ver si está en idea, validación, prototipo u otra etapa<br><br>Escenario 3: Actualizar avance del proyecto<br>DADO que el creador cambia la etapa<br>CUANDO guarda el cambio<br>ENTONCES el sistema debe reflejar la nueva madurez del proyecto</td>
+      <td style="padding: 0.5rem;">E05</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">US21</td>
+      <td style="padding: 0.5rem;">Panel de mis proyectos y postulaciones</td>
+      <td style="padding: 0.5rem;">Como usuario, quiero ver en un solo lugar mis proyectos y mis postulaciones, para dar seguimiento a mi actividad dentro de IdeaForge.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Ver proyectos creados<br>DADO que el usuario publicó ideas<br>CUANDO accede a su panel<br>ENTONCES el sistema debe mostrar sus proyectos creados<br><br>Escenario 2: Ver postulaciones realizadas<br>DADO que el usuario se postuló a proyectos<br>CUANDO accede a su panel<br>ENTONCES el sistema debe mostrar el listado y estado de sus postulaciones<br><br>Escenario 3: Diferenciar secciones<br>DADO que existen varios tipos de actividad<br>CUANDO el usuario revisa su panel<br>ENTONCES el sistema debe organizar claramente proyectos y postulaciones</td>
+      <td style="padding: 0.5rem;">E05</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">US22</td>
+      <td style="padding: 0.5rem;">Cierre de sesión</td>
+      <td style="padding: 0.5rem;">Como usuario, quiero cerrar sesión, para proteger mi cuenta cuando termine de usar la plataforma.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Cierre de sesión exitoso<br>DADO que el usuario tiene sesión iniciada<br>CUANDO presiona cerrar sesión<br>ENTONCES el sistema debe finalizar su sesión correctamente<br><br>Escenario 2: Redirección tras salir<br>DADO que la sesión fue cerrada<br>CUANDO el usuario sale de su cuenta<br>ENTONCES el sistema debe redirigirlo a la vista pública o login<br><br>Escenario 3: Bloquear acceso a vista protegida<br>DADO que la sesión ya terminó<br>CUANDO intenta volver a una pantalla protegida<br>ENTONCES el sistema debe solicitar nueva autenticación</td>
+      <td style="padding: 0.5rem;">E06</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">US23</td>
+      <td style="padding: 0.5rem;">Moderación de proyectos reportados</td>
+      <td style="padding: 0.5rem;">Como administrador, quiero revisar proyectos reportados, para mantener la calidad y seguridad del contenido en la plataforma.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Ver lista de reportes<br>DADO que existen proyectos reportados<br>CUANDO el administrador accede al panel de moderación<br>ENTONCES el sistema debe mostrar los reportes pendientes<br><br>Escenario 2: Resolver reporte<br>DADO que el administrador revisa un caso<br>CUANDO decide aprobar, ocultar o retirar contenido<br>ENTONCES el sistema debe registrar la acción tomada<br><br>Escenario 3: Restringir moderación a administradores<br>DADO que un usuario común intenta ingresar al módulo<br>CUANDO accede a esa sección<br>ENTONCES el sistema debe denegar el acceso</td>
+      <td style="padding: 0.5rem;">E06</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">US24</td>
+      <td style="padding: 0.5rem;">Reporte de proyecto o usuario</td>
+      <td style="padding: 0.5rem;">Como usuario, quiero reportar un proyecto o perfil inapropiado, para contribuir a una comunidad más segura.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Reportar contenido<br>DADO que el usuario detecta contenido inadecuado<br>CUANDO presiona reportar y elige un motivo<br>ENTONCES el sistema debe registrar el reporte<br><br>Escenario 2: Validar motivo del reporte<br>DADO que el usuario no selecciona motivo<br>CUANDO intenta enviar el reporte<br>ENTONCES el sistema debe solicitar esa información<br><br>Escenario 3: Confirmar envío del reporte<br>DADO que el reporte fue registrado<br>CUANDO la operación finaliza<br>ENTONCES el sistema debe mostrar una confirmación al usuario</td>
+      <td style="padding: 0.5rem;">E06</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem;">US25</td>
+      <td style="padding: 0.5rem;">Recuperación de contraseña</td>
+      <td style="padding: 0.5rem;">Como usuario, quiero recuperar mi contraseña, para volver a acceder a mi cuenta si la olvidé.</td>
+      <td style="padding: 0.5rem;">Escenario 1: Solicitar recuperación<br>DADO que el usuario olvidó su contraseña<br>CUANDO ingresa su correo en la opción correspondiente<br>ENTONCES el sistema debe iniciar el flujo de recuperación<br><br>Escenario 2: Validar correo registrado<br>DADO que el correo no existe en el sistema<br>CUANDO intenta recuperar su contraseña<br>ENTONCES el sistema debe informar que no se encontró la cuenta<br><br>Escenario 3: Establecer nueva contraseña<br>DADO que el usuario accede al enlace o flujo válido<br>CUANDO registra una nueva contraseña válida<br>ENTONCES el sistema debe actualizarla correctamente</td>
+      <td style="padding: 0.5rem;">E01</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="242-impact-mapping">2.4.2 Impact Mapping</h2>
+
+<p><strong>Lo haremos después.</strong></p>
+
+<h2 id="243-product-backlog">2.4.3 Product Backlog</h2>
+
+<p>En esta sección se presenta el Product Backlog priorizado de IdeaForge, organizado a partir de las User Stories identificadas para el sistema. Cada elemento incluye su orden de prioridad, identificador, título, descripción y estimación en Story Points.</p>
+
+<table border="1" style="border-collapse: collapse; width: 100%; font-size: 0.95rem;">
+  <thead>
+    <tr>
+      <th style="padding: 0.5rem;">Orden</th>
+      <th style="padding: 0.5rem;">User Story ID</th>
+      <th style="padding: 0.5rem;">Título</th>
+      <th style="padding: 0.5rem;">Descripción</th>
+      <th style="padding: 0.5rem;">Story Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 0.5rem;">1</td><td style="padding: 0.5rem;">US01</td><td style="padding: 0.5rem;">Registro de usuario</td><td style="padding: 0.5rem;">Como visitante, quiero crear una cuenta en IdeaForge, para acceder a las funcionalidades de la plataforma.</td><td style="padding: 0.5rem;">3</td></tr>
+    <tr><td style="padding: 0.5rem;">2</td><td style="padding: 0.5rem;">US02</td><td style="padding: 0.5rem;">Inicio de sesión</td><td style="padding: 0.5rem;">Como usuario registrado, quiero iniciar sesión, para acceder a mi cuenta y mis funcionalidades personalizadas.</td><td style="padding: 0.5rem;">3</td></tr>
+    <tr><td style="padding: 0.5rem;">3</td><td style="padding: 0.5rem;">US03</td><td style="padding: 0.5rem;">Edición de perfil</td><td style="padding: 0.5rem;">Como usuario, quiero editar mi perfil, para mostrar mis habilidades, intereses y una descripción personal.</td><td style="padding: 0.5rem;">5</td></tr>
+    <tr><td style="padding: 0.5rem;">4</td><td style="padding: 0.5rem;">US04</td><td style="padding: 0.5rem;">Selección de intereses y habilidades</td><td style="padding: 0.5rem;">Como usuario, quiero registrar mis intereses y habilidades, para recibir una experiencia más alineada a mi perfil.</td><td style="padding: 0.5rem;">5</td></tr>
+    <tr><td style="padding: 0.5rem;">5</td><td style="padding: 0.5rem;">US05</td><td style="padding: 0.5rem;">Creación de idea o proyecto</td><td style="padding: 0.5rem;">Como creador, quiero publicar una idea o proyecto, para atraer personas interesadas en unirse.</td><td style="padding: 0.5rem;">8</td></tr>
+    <tr><td style="padding: 0.5rem;">6</td><td style="padding: 0.5rem;">US08</td><td style="padding: 0.5rem;">Definición de roles buscados</td><td style="padding: 0.5rem;">Como creador, quiero indicar qué roles busco para mi proyecto, para atraer colaboradores adecuados.</td><td style="padding: 0.5rem;">3</td></tr>
+    <tr><td style="padding: 0.5rem;">7</td><td style="padding: 0.5rem;">US09</td><td style="padding: 0.5rem;">Exploración de proyectos</td><td style="padding: 0.5rem;">Como usuario, quiero explorar ideas publicadas, para descubrir proyectos que me interesen.</td><td style="padding: 0.5rem;">5</td></tr>
+    <tr><td style="padding: 0.5rem;">8</td><td style="padding: 0.5rem;">US10</td><td style="padding: 0.5rem;">Búsqueda por palabra clave</td><td style="padding: 0.5rem;">Como usuario, quiero buscar proyectos por palabras clave, para encontrar ideas relacionadas con mis intereses.</td><td style="padding: 0.5rem;">3</td></tr>
+    <tr><td style="padding: 0.5rem;">9</td><td style="padding: 0.5rem;">US11</td><td style="padding: 0.5rem;">Filtrado por rol, habilidad o interés</td><td style="padding: 0.5rem;">Como usuario, quiero filtrar proyectos según rol, habilidad o interés, para encontrar oportunidades más relevantes.</td><td style="padding: 0.5rem;">5</td></tr>
+    <tr><td style="padding: 0.5rem;">10</td><td style="padding: 0.5rem;">US12</td><td style="padding: 0.5rem;">Visualización del detalle de un proyecto</td><td style="padding: 0.5rem;">Como usuario, quiero ver el detalle completo de un proyecto, para evaluar si me interesa participar.</td><td style="padding: 0.5rem;">3</td></tr>
+    <tr><td style="padding: 0.5rem;">11</td><td style="padding: 0.5rem;">US13</td><td style="padding: 0.5rem;">Postulación a proyecto</td><td style="padding: 0.5rem;">Como usuario interesado, quiero postularme a un proyecto, para expresar mi interés en participar.</td><td style="padding: 0.5rem;">5</td></tr>
+    <tr><td style="padding: 0.5rem;">12</td><td style="padding: 0.5rem;">US14</td><td style="padding: 0.5rem;">Visualización de postulantes</td><td style="padding: 0.5rem;">Como creador, quiero ver quiénes se han postulado a mi proyecto, para evaluar posibles colaboradores.</td><td style="padding: 0.5rem;">5</td></tr>
+    <tr><td style="padding: 0.5rem;">13</td><td style="padding: 0.5rem;">US15</td><td style="padding: 0.5rem;">Aceptación o rechazo de postulaciones</td><td style="padding: 0.5rem;">Como creador, quiero aceptar o rechazar postulaciones, para gestionar quién se une a mi proyecto.</td><td style="padding: 0.5rem;">5</td></tr>
+    <tr><td style="padding: 0.5rem;">14</td><td style="padding: 0.5rem;">US16</td><td style="padding: 0.5rem;">Mensajería entre creador y postulante</td><td style="padding: 0.5rem;">Como usuario, quiero intercambiar mensajes con otros participantes, para conversar sobre una posible colaboración.</td><td style="padding: 0.5rem;">8</td></tr>
+    <tr><td style="padding: 0.5rem;">15</td><td style="padding: 0.5rem;">US17</td><td style="padding: 0.5rem;">Notificaciones de actividad</td><td style="padding: 0.5rem;">Como usuario, quiero recibir notificaciones de actividades relevantes, para mantenerme informado sobre proyectos y postulaciones.</td><td style="padding: 0.5rem;">5</td></tr>
+    <tr><td style="padding: 0.5rem;">16</td><td style="padding: 0.5rem;">US21</td><td style="padding: 0.5rem;">Panel de mis proyectos y postulaciones</td><td style="padding: 0.5rem;">Como usuario, quiero ver en un solo lugar mis proyectos y mis postulaciones, para dar seguimiento a mi actividad dentro de IdeaForge.</td><td style="padding: 0.5rem;">5</td></tr>
+    <tr><td style="padding: 0.5rem;">17</td><td style="padding: 0.5rem;">US19</td><td style="padding: 0.5rem;">Visualización de estado del proyecto</td><td style="padding: 0.5rem;">Como usuario, quiero ver el estado actual de un proyecto, para saber si sigue abierto a colaboradores.</td><td style="padding: 0.5rem;">3</td></tr>
+    <tr><td style="padding: 0.5rem;">18</td><td style="padding: 0.5rem;">US20</td><td style="padding: 0.5rem;">Visualización de avance del proyecto</td><td style="padding: 0.5rem;">Como usuario, quiero ver el nivel de avance o madurez de un proyecto, para evaluar mejor su seriedad y potencial.</td><td style="padding: 0.5rem;">3</td></tr>
+    <tr><td style="padding: 0.5rem;">19</td><td style="padding: 0.5rem;">US18</td><td style="padding: 0.5rem;">Marcado de proyecto favorito o guardado</td><td style="padding: 0.5rem;">Como usuario, quiero guardar proyectos que me interesan, para revisarlos después.</td><td style="padding: 0.5rem;">3</td></tr>
+    <tr><td style="padding: 0.5rem;">20</td><td style="padding: 0.5rem;">US06</td><td style="padding: 0.5rem;">Edición de idea o proyecto</td><td style="padding: 0.5rem;">Como creador, quiero editar la información de mi proyecto, para mantenerla actualizada.</td><td style="padding: 0.5rem;">5</td></tr>
+    <tr><td style="padding: 0.5rem;">21</td><td style="padding: 0.5rem;">US07</td><td style="padding: 0.5rem;">Eliminación o desactivación de proyecto</td><td style="padding: 0.5rem;">Como creador, quiero desactivar o eliminar mi proyecto, para dejar de mostrarlo cuando ya no esté disponible.</td><td style="padding: 0.5rem;">3</td></tr>
+    <tr><td style="padding: 0.5rem;">22</td><td style="padding: 0.5rem;">US24</td><td style="padding: 0.5rem;">Reporte de proyecto o usuario</td><td style="padding: 0.5rem;">Como usuario, quiero reportar un proyecto o perfil inapropiado, para contribuir a una comunidad más segura.</td><td style="padding: 0.5rem;">3</td></tr>
+    <tr><td style="padding: 0.5rem;">23</td><td style="padding: 0.5rem;">US23</td><td style="padding: 0.5rem;">Moderación de proyectos reportados</td><td style="padding: 0.5rem;">Como administrador, quiero revisar proyectos reportados, para mantener la calidad y seguridad del contenido en la plataforma.</td><td style="padding: 0.5rem;">5</td></tr>
+    <tr><td style="padding: 0.5rem;">24</td><td style="padding: 0.5rem;">US25</td><td style="padding: 0.5rem;">Recuperación de contraseña</td><td style="padding: 0.5rem;">Como usuario, quiero recuperar mi contraseña, para volver a acceder a mi cuenta si la olvidé.</td><td style="padding: 0.5rem;">3</td></tr>
+    <tr><td style="padding: 0.5rem;">25</td><td style="padding: 0.5rem;">US22</td><td style="padding: 0.5rem;">Cierre de sesión</td><td style="padding: 0.5rem;">Como usuario, quiero cerrar sesión, para proteger mi cuenta cuando termine de usar la plataforma.</td><td style="padding: 0.5rem;">2</td></tr>
+  </tbody>
+</table>
 
 <h2 id="25-strategic-level-domain-driven-design">2.5 Strategic-Level Domain-Driven Design</h2>
 
