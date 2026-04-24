@@ -843,4 +843,8 @@ El diagrama de componentes a continuación detalla el sistema de Colaboración, 
 
 <h5 id="26x61-bounded-context-domain-layer-class-diagrams">2.6.5.6.1 Bounded Context Domain Layer Class Diagrams</h5>
 
+Este diagrama de clases de dominio modela las interacciones críticas de negocio para armar equipos, gestionando entidades como `Postulación` y el Aggregate Root `Equipo`.
+
+![Collaboration Class Diagram](image/collaboration-class.png)
+
 <h5 id="26x62-bounded-context-database-design-diagram">2.6.5.6.2 Bounded Context Database Design Diagram</h5>
