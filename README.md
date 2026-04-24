@@ -835,6 +835,10 @@ Para maximizar el rendimiento en las búsquedas, este esquema de base de datos u
 
 <h4 id="26x5-bounded-context-software-architecture-component-level-diagrams">2.6.5.5 Bounded Context Software Architecture Component Level Diagrams</h4>
 
+El diagrama de componentes a continuación detalla el sistema de Colaboración, evidenciando los flujos de postulación de usuarios y la consolidación de equipos de trabajo aprobados.
+
+![Collaboration Component Diagram](image/Collaboration_Components.png)
+
 <h4 id="26x6-bounded-context-software-architecture-code-level-diagrams">2.6.5.6 Bounded Context Software Architecture Code Level Diagrams</h4>
 
 <h5 id="26x61-bounded-context-domain-layer-class-diagrams">2.6.5.6.1 Bounded Context Domain Layer Class Diagrams</h5>
