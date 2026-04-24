@@ -615,6 +615,13 @@ Implementa los casos de uso utilizando el patrón CQRS (Command Query Responsibi
 
 <h4 id="26x3-application-layer">2.6.2.3 Application Layer</h4>
 
+**Commands & Handlers:**
+* `UpdateProfileCommand`: DTO con los datos actualizados (`bio`, `skills`, etc.).
+* `UpdateProfileCommandHandler`: Recupera el `User`, aplica los cambios y guarda el estado actualizado.
+
+**Outbound Ports:**
+* `IProfileRepository`: Interfaz para persistencia (ej. `findById()`, `save()`).
+
 <h4 id="26x4-infrastructure-layer">2.6.2.4 Infrastructure Layer</h4>
 
 <h4 id="26x5-bounded-context-software-architecture-component-level-diagrams">2.6.2.5 Bounded Context Software Architecture Component Level Diagrams</h4>
