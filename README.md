@@ -1,8 +1,5 @@
-Lo armé siguiendo el estilo de los ejemplos que me pasaste y adaptándolo a IdeaForge como **producto móvil**, dejando espacios para figuras, landing, wireflows y mock-ups posteriores. Tomé como base que IdeaForge conecta ideas con personas según roles, habilidades e intereses, y que no debe presentarse como plataforma de empleo o freelancing  .
 
-Copia y pega este bloque en tu `.md`:
 
-````md
 ## 3.1. Product design
 
 En esta sección se presenta el diseño del producto digital IdeaForge, considerando su enfoque principal como aplicación móvil. IdeaForge es una plataforma orientada a que emprendedores, estudiantes y creativos puedan publicar ideas de proyectos y conectar con personas interesadas en colaborar según sus roles, habilidades e intereses.
