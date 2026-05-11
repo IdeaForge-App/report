@@ -572,9 +572,68 @@ Los wireframes deberán mantener una estructura limpia y clara, priorizando la u
 
 ## 3.1.4.2. Mobile Applications Wireflow Diagrams
 
-Esta sección será completada posteriormente con los Wireflow Diagrams de la aplicación móvil. En este avance no se desarrollan los wireflows, ya que primero se validarán las pantallas base mediante wireframes.
+# IdeaForge - Wireflow Diagrams
 
-[Espacio reservado para wireflows de la aplicación móvil]
+Este documento presenta los principales **wireflow diagrams** de la aplicación móvil **IdeaForge**.  
+Los diagramas representan los flujos de navegación e interacción más importantes del producto, considerando una experiencia **mobile-first** orientada a la exploración de ideas, creación de proyectos, postulación, mensajería y gestión del perfil del usuario.
+
+IdeaForge es una aplicación móvil diseñada para conectar personas con ideas de proyecto y usuarios interesados en colaborar según sus roles, habilidades e intereses.
+
+---
+
+## 1. Flujo de Onboarding / Registro
+
+<img width="868" height="2009" alt="01_onboarding_registro" src="https://github.com/user-attachments/assets/3babbe4e-2a87-4e6e-be4c-0a9ba2d3dd9f" />
+
+Representa el recorrido inicial del usuario dentro de la aplicación móvil IdeaForge. El flujo inicia en la vista de login, donde el usuario puede ingresar con una cuenta existente o registrarse. En caso de crear una cuenta nueva, el usuario completa su perfil seleccionando rol principal, habilidades e intereses, información necesaria para personalizar la experiencia y mejorar las recomendaciones de ideas y proyectos.
+
+---
+
+## 2. Flujo de Exploración y Búsqueda
+
+<img width="1659" height="1685" alt="02_exploracion_busqueda" src="https://github.com/user-attachments/assets/208bc3ad-fa1b-4c71-8a24-5d58b1ec9adb" />
+
+Muestra cómo el usuario puede descubrir ideas dentro de IdeaForge desde la pantalla Home o desde la sección Search. El flujo permite realizar búsquedas por palabra clave y aplicar filtros por rol requerido, habilidad, interés, etapa o estado del proyecto. Si existen resultados, se muestran cards de proyectos que permiten acceder al detalle; en caso contrario, se presenta un mensaje de ausencia de resultados.
+
+---
+
+## 3. Flujo de Detalle de Proyecto y Postulación
+
+<img width="788" height="2335" alt="03_detalle_postulacion" src="https://github.com/user-attachments/assets/72713de4-2402-43e1-8fb2-105f3f7263be" />
+
+Describe el proceso mediante el cual el usuario revisa la información completa de una idea o proyecto publicado. Desde esta vista puede conocer la descripción, etapa, roles requeridos, habilidades relacionadas e información del creador. Si el proyecto se encuentra abierto, el usuario puede guardar la idea o postularse. El sistema valida si la postulación ya fue realizada y, si corresponde, registra la solicitud y notifica al creador.
+
+---
+
+## 4. Flujo de Creación de Idea
+
+<img width="523" height="2665" alt="04_creacion_idea" src="https://github.com/user-attachments/assets/923f3be9-8723-4c2a-838a-05f80cd36fe0" />
+
+Representa el proceso que sigue un usuario creador para publicar una nueva idea de proyecto en IdeaForge. El flujo incluye el registro de datos básicos, descripción del problema, objetivo, etapa del proyecto, roles requeridos y habilidades deseadas. Antes de publicar, el usuario visualiza una vista previa y el sistema valida que el formulario esté completo. Si la información es válida, la idea se publica y queda disponible para otros usuarios.
+
+---
+
+## 5. Flujo de Gestión de Postulaciones
+
+<img width="972" height="1733" alt="05_gestion_postulaciones" src="https://github.com/user-attachments/assets/208a8c52-1613-45ed-82d9-6669174d69e4" />
+
+Muestra la forma en que los usuarios gestionan sus postulaciones dentro de la aplicación. El flujo contempla dos escenarios: el postulante puede revisar el estado de sus solicitudes, mientras que el creador puede visualizar postulantes recibidos, revisar sus perfiles y aceptar o rechazar postulaciones. Cuando una postulación es aceptada, el usuario es agregado al equipo y se habilita la comunicación mediante mensajes.
+
+---
+
+## 6. Flujo de Mensajería
+
+<img width="631" height="1620" alt="06_mensajeria" src="https://github.com/user-attachments/assets/067827e8-d752-471c-bbdf-3005ad981475" />
+
+Describe el proceso de comunicación entre usuarios dentro de IdeaForge. El usuario accede a la sección Messages desde la navegación inferior, visualiza sus conversaciones y entra al detalle de un chat. Desde allí puede revisar el historial y enviar nuevos mensajes. El sistema valida que el mensaje no esté vacío, actualiza la conversación y notifica al receptor.
+
+---
+
+## 7. Mapa de Navegación Completo
+
+<img width="1315" height="2643" alt="07_mapa_navegacion_completo" src="https://github.com/user-attachments/assets/c9472a8c-b069-4eaf-bec6-b27bc32ea51a" />
+
+Presenta una visión general de la navegación principal de la aplicación móvil IdeaForge. El mapa muestra la relación entre las pantallas de login, registro, perfil, Home, Search, Create Idea, Project Detail, Applications, Messages y Profile. Este diagrama permite comprender cómo se conectan los principales módulos de la aplicación y cómo el usuario puede desplazarse entre las funciones centrales del producto.
 
 ---
 
