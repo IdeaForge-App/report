@@ -85,7 +85,7 @@ Por otro lado, definimos las diferentes tipos de commits para que nos ayude a do
 Con el fin de garantizar la mantenibilidad y legibilidad del código fuente, se ha adoptado un conjunto de convenciones internacionales.
 - HTML:
     - Se utilizaran atributos en minúsculas y nombres de clase con kebab-case (section-title, main-container).
-    - Estructura semántica clara: uso de etiquetas como <header>, <nav>, <main>, <section>, <footer>. Sangría con 2 espacios.
+    - Estructura semántica clara: uso de etiquetas como ```<header>```, ```<nav>```, ```<main>```, ```<section>```, ```<footer>```. Además de utilizar una sangría con 2 espacios.
     - Atributos ordenados de manera lógica: id, class, type, name, placeholder, value, required, etc.
 - CSS
     - Para clases personalizadas: usar kebab-case.
