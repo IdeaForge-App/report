@@ -109,7 +109,17 @@ Con el fin de garantizar la mantenibilidad y legibilidad del código fuente, se 
 
 <h3 id="414-source-deployment-configuration">4.1.4. Software Deployment Configuration</h3>
 
+En esta sección se describe la estrategia de despliegue automatizado para garantizar que los cambios en el código fuente se reflejen de manera consistente en el entorno de producción.
 
+GitHub Pages:
+
+- Para empezar, nos desplazaremos a la configuración de GitHub Pages en el repositorio de la landing page.
+
+- Luego, ingresaremos a la sección "Settings", y luego dentro entraremos a la sección "Pages"
+
+- Después, seleccionamos la rama en la que se encuentre alojado el proyecto.
+
+- Finalmente, esperamos la URL autogenerada por GitHub Pages y seleccionamos el botón de "Visitar sitio" para entrar al despliegue.
 
 <h2 id="42-landing-page-&-mobile-application-implementation">4.2. Landing Page & Mobile Application Implementation </h3>
 
