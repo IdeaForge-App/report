@@ -86,12 +86,13 @@ Los colores principales combinan tonos oscuros con acentos vibrantes en violeta,
 | Éxito | Verde | `#22C55E` | Confirmaciones, postulaciones aceptadas o acciones exitosas. |
 | Error | Rojo coral | `#F43F5E` | Errores, alertas o validaciones negativas. |
 
-**Figura XX**
+**Figura**
 
 Paleta de colores de IdeaForge
 
-[Insertar imagen de la paleta de colores]
-
+<p align="center">
+  <img src="https://files.catbox.moe/xb9tya.png" alt="Paleta de colores de IdeaForge" width="700">
+</p>
 El color violeta eléctrico será el color principal de la marca, utilizado en botones importantes, pestañas activas y acciones clave como iniciar sesión, crear una idea o postular a un proyecto. El cian se utilizará como color secundario para enlaces, botones alternativos y elementos de interacción. El magenta funcionará como color de apoyo para diferenciar categorías, habilidades o etiquetas visuales. El amarillo se reservará para destacar proyectos recomendados, ideas importantes o información que requiera mayor visibilidad.
 
 **Aplicación en Figma**
@@ -159,11 +160,13 @@ En esta sección se presentan las decisiones que guían la manera en que se orga
 
 La estructura de la aplicación se basa en los objetivos principales de los usuarios: descubrir ideas, crear proyectos, postular a iniciativas, comunicarse con otros usuarios y administrar su perfil. Por ello, la información se organiza en secciones simples y accesibles desde una navegación inferior.
 
-**Figura XX**
+**Figura**
 
 Estructura general de información de la aplicación móvil IdeaForge
 
-[Insertar imagen o diagrama de arquitectura de información de la app móvil]
+<p align="center">
+  <img src="https://files.catbox.moe/fvtgw7.png" alt="Paleta de colores de IdeaForge" width="700">
+</p>
 
 La aplicación se organizará en las siguientes secciones principales:
 
@@ -242,11 +245,12 @@ La aplicación también utilizará esquemas de categorización para ordenar mejo
 | Por estado | Ideas abiertas, proyectos en formación, proyectos activos o proyectos cerrados. |
 | Por roles | Developer, Designer, Marketing, Business, Data Analyst, Content Creator. |
 
-**Figura XX**
+**Figura**
 
 Sistema de organización de información en IdeaForge
-
-[Insertar imagen o cuadro visual del sistema de organización]
+<p align="center">
+  <img src="https://files.catbox.moe/521c7p.png" alt="Paleta de colores de IdeaForge" width="700">
+</p>
 
 ---
 
@@ -277,11 +281,13 @@ A continuación, se presentan las principales etiquetas propuestas para la aplic
 | Tech | Categoría relacionada con tecnología. |
 | Recommended | Etiqueta para destacar ideas sugeridas por afinidad o relevancia. |
 
-**Figura XX**
+**Figura**
 
 Etiquetas principales de la aplicación móvil IdeaForge
 
-[Insertar imagen de etiquetas, chips o navegación de la aplicación]
+<p align="center">
+  <img src="https://files.catbox.moe/rvip04.png" alt="Paleta de colores de IdeaForge" width="700">
+</p>
 
 También se establecen términos que deben evitarse dentro de la experiencia de usuario, debido a que no representan correctamente la propuesta de valor de IdeaForge:
 
@@ -356,11 +362,13 @@ Para la futura publicación de la aplicación móvil, se consideran los siguient
 | App Category    | Productivity / Social Networking                                                                                                                                                                                                                                                   |
 | App Tagline     | Turn ideas into projects with the right people.                                                                                                                                                                                                                                    |
 
-**Figura XX**
+**Figura**
 
 Vista referencial de elementos ASO para IdeaForge
 
-[Insertar imagen referencial de App Store / Google Play con información de IdeaForge]
+<p align="center">
+  <img src="https://files.catbox.moe/dug34z.png" alt="Paleta de colores de IdeaForge" width="700">
+</p>
 
 ---
 
@@ -370,11 +378,14 @@ El sistema de búsqueda de IdeaForge permitirá que los usuarios encuentren idea
 
 La búsqueda estará integrada principalmente en la pantalla **Search**, pero también se incluirá una barra de búsqueda rápida en la pantalla **Home** para facilitar el acceso inmediato a proyectos o palabras clave.
 
-**Figura XX**
+**Figura**
 
 Vista de búsqueda de la aplicación móvil IdeaForge
 
-[Insertar imagen de la pantalla Search o barra de búsqueda]
+<p align="center">
+  <img src="https://files.catbox.moe/u3owp5.png" alt="Paleta de colores de IdeaForge" width="700">
+</p>
+
 
 La búsqueda permitirá filtrar contenido de acuerdo con los siguientes criterios:
 
@@ -411,11 +422,13 @@ El sistema de navegación de IdeaForge estará diseñado específicamente para u
 
 La navegación inferior permitirá que el usuario se desplace entre las secciones principales de manera simple, manteniendo siempre visibles las acciones más importantes de la aplicación.
 
-**Figura XX**
+**Figura**
 
 Sistema de navegación inferior de IdeaForge
 
-[Insertar imagen de la barra de navegación inferior]
+<p align="center">
+  <img src="https://files.catbox.moe/si2cz2.png" alt="Paleta de colores de IdeaForge" width="700">
+</p>
 
 La barra de navegación estará compuesta por cinco opciones principales:
 
@@ -445,33 +458,73 @@ En conjunto, el sistema de navegación busca ofrecer una experiencia fluida, int
 
 ## 3.1.3. Landing Page UI Design
 
-Esta sección será completada posteriormente por el equipo encargado del diseño de la Landing Page. En el alcance actual del presente avance, el desarrollo se centra principalmente en la experiencia móvil de IdeaForge.
+En esta sección se presenta la propuesta de diseño de la Landing Page de IdeaForge. A diferencia de la aplicación móvil, que concentra las funcionalidades principales del producto, la Landing Page cumple un propósito informativo y promocional. Su objetivo es comunicar de forma clara la propuesta de valor de IdeaForge, explicar cómo funciona la plataforma y motivar a los visitantes a registrarse o descargar la aplicación móvil.
 
-[Espacio reservado para completar el diseño UI de la Landing Page]
+La Landing Page estará orientada principalmente a usuarios que aún no conocen IdeaForge. Por ello, su diseño debe permitir que el visitante comprenda rápidamente que la plataforma ayuda a publicar ideas de proyectos y encontrar personas interesadas en colaborar según roles, habilidades o intereses.
 
----
+La estructura visual de la Landing Page seguirá los lineamientos de estilo definidos para IdeaForge, manteniendo una identidad moderna, tecnológica y colaborativa. Se utilizarán colores relacionados con la marca, como el azul noche, violeta eléctrico, cian creativo y magenta, combinados con espacios claros que faciliten la lectura y resalten las llamadas a la acción.
+
+La página estará organizada en secciones simples, con una navegación clara y orientada a conversión. Se priorizará una experiencia directa, donde el usuario pueda identificar el valor del producto sin recorrer demasiada información.
+
+La Landing Page estará compuesta por las siguientes secciones principales:
+
+| Sección | Propósito |
+|---|---|
+| Hero Section | Presentar la propuesta principal de IdeaForge y mostrar una llamada a la acción para empezar. |
+| ¿Cómo funciona? | Explicar de forma breve el proceso: publicar una idea, encontrar colaboradores y formar equipo. |
+| Beneficios | Mostrar las ventajas principales de usar IdeaForge frente a redes sociales o comunidades dispersas. |
+| Usuarios objetivo | Presentar los perfiles principales: creadores de ideas y colaboradores. |
+| Vista previa de la app | Mostrar pantallas referenciales de la aplicación móvil para generar confianza y claridad. |
+| Call to Action | Invitar al usuario a registrarse, unirse a la comunidad o descargar la aplicación. |
+| Footer | Incluir información básica de la startup, enlaces de navegación y contacto. |
+
+El diseño buscará mantener una comunicación breve y motivadora, utilizando frases como “Find your next team”, “Turn ideas into projects” y “Build ideas together”. Estas expresiones refuerzan el enfoque colaborativo de la plataforma y ayudan a posicionar a IdeaForge como un espacio para transformar ideas en proyectos reales.
+
+
+
 
 ## 3.1.3.1. Landing Page Wireframe
 
-Esta sección será completada posteriormente con los wireframes correspondientes a la Landing Page.
 
-**Figura XX**
+**Figura**
 
 Landing Page Wireframe
 
-[Insertar wireframe de Landing Page]
+<p align="center">
+  <img src="https://files.catbox.moe/ie3j4t.png" alt="Paleta de colores de IdeaForge" width="700">
+</p>
+
+
+**Figura**
+
+Landing Page Wireframe
+
+<p align="center">
+  <img src="https://files.catbox.moe/bg71su.png" alt="Paleta de colores de IdeaForge" width="700">
+</p>
+
+**Figura**
+
+Landing Page Wireframe
+
+<p align="center">
+  <img src="https://files.catbox.moe/bim43g.png" alt="Paleta de colores de IdeaForge" width="700">
+</p>
 
 ---
+
 
 ## 3.1.3.2. Landing Page Mock-up
 
 Esta sección será completada posteriormente con el mock-up correspondiente a la Landing Page.
 
-**Figura XX**
+**Figura**
 
 Landing Page Mock-up
 
-[Insertar mock-up de Landing Page]
+<p align="center">
+  <img src="https://files.catbox.moe/x0ey6h.png" alt="Paleta de colores de IdeaForge" width="700">
+</p>
 
 ---
 
@@ -506,65 +559,88 @@ Las pantallas consideradas para los wireframes son las siguientes:
 | Messages         | Permitir la comunicación entre usuarios.                                              |
 | Profile          | Mostrar y editar información del usuario.                                             |
 
-**Figura XX**
+**Figura**
 
 Wireframe de pantalla Login
 
-[Insertar wireframe de Login]
+<p align="center">
+  <img src="https://files.catbox.moe/8csdo9.png" alt="Paleta de colores de IdeaForge" width="700">
+</p>
 
-**Figura XX**
+**Figura**
 
 Wireframe de pantalla Register
 
-[Insertar wireframe de Register]
+<p align="center">
+  <img src="https://files.catbox.moe/t4epc7.png" alt="Paleta de colores de IdeaForge" width="700">
+</p>
 
-**Figura XX**
+**Figura**
 
 Wireframe de pantalla Complete Profile
 
-[Insertar wireframe de Complete Profile]
+<p align="center">
+  <img src="https://files.catbox.moe/b7mp1i.png" alt="Paleta de colores de IdeaForge" width="700">
+</p>
 
-**Figura XX**
+
+**Figura**
 
 Wireframe de pantalla Home
 
-[Insertar wireframe de Home]
+<p align="center">
+  <img src="https://files.catbox.moe/w75mgj.png" alt="Paleta de colores de IdeaForge" width="700">
+</p>
 
-**Figura XX**
+**Figura**
 
 Wireframe de pantalla Search
 
-[Insertar wireframe de Search]
+<p align="center">
+  <img src="https://files.catbox.moe/fyshuk.png" alt="Paleta de colores de IdeaForge" width="700">
+</p>
 
-**Figura XX**
+**Figura**
 
 Wireframe de pantalla Project Detail
 
-[Insertar wireframe de Project Detail]
+<p align="center">
+  <img src="https://files.catbox.moe/g8uvoz.png" alt="Paleta de colores de IdeaForge" width="700">
+</p>
 
-**Figura XX**
+**Figura**
 
 Wireframe de pantalla Create Idea
 
-[Insertar wireframe de Create Idea]
+<p align="center">
+  <img src="https://files.catbox.moe/f95ht7.png" alt="Paleta de colores de IdeaForge" width="700">
+</p>
 
-**Figura XX**
+**Figura**
 
 Wireframe de pantalla Applications
 
-[Insertar wireframe de Applications]
+<p align="center">
+  <img src="https://files.catbox.moe/5ku13u.png" alt="Paleta de colores de IdeaForge" width="700">
+</p>
 
-**Figura XX**
+**Figura**
 
 Wireframe de pantalla Messages
 
-[Insertar wireframe de Messages]
+<p align="center">
+  <img src="https://files.catbox.moe/3c59wk.png" alt="Paleta de colores de IdeaForge" width="700">
+</p>
 
-**Figura XX**
+
+**Figura**
 
 Wireframe de pantalla Profile
 
-[Insertar wireframe de Profile]
+<p align="center">
+  <img src="https://files.catbox.moe/hvpkfr.png" alt="Paleta de colores de IdeaForge" width="700">
+</p>
+
 
 Los wireframes deberán mantener una estructura limpia y clara, priorizando la ubicación de los elementos más importantes. En esta etapa no será necesario aplicar la paleta visual completa, ya que el objetivo principal es validar la estructura de navegación y la organización de contenido.
 
@@ -573,12 +649,6 @@ Los wireframes deberán mantener una estructura limpia y clara, priorizando la u
 ## 3.1.4.2. Mobile Applications Wireflow Diagrams
 
 # IdeaForge - Wireflow Diagrams
-
-Este documento presenta los principales **wireflow diagrams** de la aplicación móvil **IdeaForge**.  
-Los diagramas representan los flujos de navegación e interacción más importantes del producto, considerando una experiencia **mobile-first** orientada a la exploración de ideas, creación de proyectos, postulación, mensajería y gestión del perfil del usuario.
-
-IdeaForge es una aplicación móvil diseñada para conectar personas con ideas de proyecto y usuarios interesados en colaborar según sus roles, habilidades e intereses.
-
 ---
 
 ## 1. Flujo de Onboarding / Registro
@@ -635,6 +705,7 @@ Describe el proceso de comunicación entre usuarios dentro de IdeaForge. El usua
 
 Presenta una visión general de la navegación principal de la aplicación móvil IdeaForge. El mapa muestra la relación entre las pantallas de login, registro, perfil, Home, Search, Create Idea, Project Detail, Applications, Messages y Profile. Este diagrama permite comprender cómo se conectan los principales módulos de la aplicación y cómo el usuario puede desplazarse entre las funciones centrales del producto.
 
+---
 ---
 
 ## 3.1.4.3. Mobile Applications Mock-ups
