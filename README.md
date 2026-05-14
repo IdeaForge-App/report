@@ -115,11 +115,19 @@ GitHub Pages:
 
 - Para empezar, nos desplazaremos a la configuración de GitHub Pages en el repositorio de la landing page.
 
+<img src="./img/deploy_evidence1.png">
+
 - Luego, ingresaremos a la sección "Settings", y luego dentro entraremos a la sección "Pages"
+
+<img src="./img/deploy_evidence2.png">
 
 - Después, seleccionamos la rama en la que se encuentre alojado el proyecto.
 
+<img src="./img/deploy_evidence3.png">
+
 - Finalmente, esperamos la URL autogenerada por GitHub Pages y seleccionamos el botón de "Visitar sitio" para entrar al despliegue.
+
+<img src="./img/deploy_evidence4.png">
 
 <h2 id="42-landing-page-&-mobile-application-implementation">4.2. Landing Page & Mobile Application Implementation </h3>
 
@@ -288,51 +296,81 @@ GitHub Pages:
       <th>Fecha de Commit</th>
     </tr>
   </thead>
-    <tbody>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>-</td>
-            <td></td>
-        </tr>
-    </tbody>
+  <tbody>
+    <tr>
+      <td>IdeaForge-App/landing-page</td>
+      <td>main</td>
+      <td>49bd82a</td>
+      <td>style(css)</td>
+      <td>design navigation bar and scroll progress</td>
+      <td>12/05/26</td>
+    </tr>
+    <tr>
+      <td>IdeaForge-App/landing-page</td>
+      <td>main</td>
+      <td>a5e1651</td>
+      <td>style(css)</td>
+      <td>implement base design system and variables</td>
+      <td>12/05/26</td>
+    </tr>
+    <tr>
+      <td>IdeaForge-App/landing-page</td>
+      <td>main</td>
+      <td>0f581e9</td>
+      <td>feat(html)</td>
+      <td>define core structure and semantic sections</td>
+      <td>12/05/26</td>
+    </tr>
+    <tr>
+      <td>IdeaForge-App/landing-page</td>
+      <td>main</td>
+      <td>8a55346</td>
+      <td>feat(assets)</td>
+      <td>add team member portraits</td>
+      <td>12/05/26</td>
+    </tr>
+    <tr>
+      <td>IdeaForge-App/landing-page</td>
+      <td>main</td>
+      <td>937b194</td>
+      <td>feat(assets)</td>
+      <td>add platform interface mockup</td>
+      <td>12/05/26</td>
+    </tr>
+    <tr>
+      <td>IdeaForge-App/landing-page</td>
+      <td>main</td>
+      <td>4eb8acb</td>
+      <td>feat(assets)</td>
+      <td>add futuristic background for hero section</td>
+      <td>12/05/26</td>
+    </tr>
+    <tr>
+      <td>IdeaForge-App/landing-page</td>
+      <td>main</td>
+      <td>5fe7581</td>
+      <td>feat(assets)</td>
+      <td>add brand identity logo</td>
+      <td>12/05/26</td>
+    </tr>
+  </tbody>
 </table>
-
-
 
 <h3 id="4214-testing-suite-evidence-for-sprint-review">4.2.1.4. Testing Suite Evidence for Sprint Review</h3>
 
-<table border="1" cellspacing="0" cellpadding="6">
-  <thead>
-    <tr>
-      <th>Repositorio</th>
-      <th>Rama</th>
-      <th>ID de Commit</th>
-      <th>Mensaje de Commit</th>
-      <th>Descripción del Commit</th>
-      <th>Fecha de Commit</th>
-    </tr>
-  </thead>
-    <tbody>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>-</td>
-            <td></td>
-        </tr>
-    </tbody>
-</table>
+Durante el Sprint 1, el esfuerzo del equipo se concentró exclusivamente en el desarrollo del Landing Page de IdeaForge. Debido a esta priorización del frontend, la creación de la tabla Testing Suite para Web Services no fue ejecutada. El diseño de la arquitectura de pruebas, así como la implementación de endpoints y su respectiva validación, se encuentran programados dentro del cronograma de los Sprints subsiguientes.
 
 <h3 id="4215-execution-evidence-for-sprint-review">4.2.1.5. Execution Evidence for Sprint Review</h3>
 
 <strong>Landing Page</strong>
 
 <ul>
-    <li><img src="./img/.png"></li>
+    <li><img src="./img/landing_page_evidence1.png"></li>
+	<li><img src="./img/landing_page_evidence2.png"></li>
+	<li><img src="./img/landing_page_evidence3.png"></li>
+	<li><img src="./img/landing_page_evidence4.png"></li>
+	<li><img src="./img/landing_page_evidence5.png"></li>
+	<li><img src="./img/landing_page_evidence6.png"></li>
 </ul>
 
 <h3 id="4216-services-documentation-evidence-for-sprint-review">4.2.1.6. Services Documentation Evidence for Sprint Review</h3>
@@ -344,11 +382,11 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de I
 <ul>
     <li>
         <strong>URL de la Landing Page:</strong>
-        <a href="-" target="_blank"></a>
+        <a href="https://ideaforge-app.github.io/landing-page/" target="_blank">https://ideaforge-app.github.io/landing-page/</a>
     </li>
     <li>
         <strong>Repositorio:</strong>
-        <a href="-" target="_blank"></a>
+        <a href="https://github.com/IdeaForge-App/landing-page" target="_blank">https://github.com/IdeaForge-App/landing-page</a>
     </li>
 </ul>
 
