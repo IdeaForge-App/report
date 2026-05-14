@@ -115,19 +115,19 @@ GitHub Pages:
 
 - Para empezar, nos desplazaremos a la configuración de GitHub Pages en el repositorio de la landing page.
 
-<img src="./img/deploy_evidence1.png">
+<img src="https://files.catbox.moe/23ilbv.png">
 
 - Luego, ingresaremos a la sección "Settings", y luego dentro entraremos a la sección "Pages"
 
-<img src="./img/deploy_evidence2.png">
+<img src="https://files.catbox.moe/a601fb.png">
 
 - Después, seleccionamos la rama en la que se encuentre alojado el proyecto.
 
-<img src="./img/deploy_evidence3.png">
+<img src="https://files.catbox.moe/9jnr4q.png">
 
 - Finalmente, esperamos la URL autogenerada por GitHub Pages y seleccionamos el botón de "Visitar sitio" para entrar al despliegue.
 
-<img src="./img/deploy_evidence4.png">
+<img src="https://files.catbox.moe/m5bz6z.png">
 
 <h2 id="42-landing-page-&-mobile-application-implementation">4.2. Landing Page & Mobile Application Implementation </h3>
 
@@ -365,12 +365,12 @@ Durante el Sprint 1, el esfuerzo del equipo se concentró exclusivamente en el d
 <strong>Landing Page</strong>
 
 <ul>
-    <li><img src="./img/landing_page_evidence1.png"></li>
-	<li><img src="./img/landing_page_evidence2.png"></li>
-	<li><img src="./img/landing_page_evidence3.png"></li>
-	<li><img src="./img/landing_page_evidence4.png"></li>
-	<li><img src="./img/landing_page_evidence5.png"></li>
-	<li><img src="./img/landing_page_evidence6.png"></li>
+    <li><img src="https://files.catbox.moe/itk4i9.png"></li>
+	<li><img src="https://files.catbox.moe/1paui7.png"></li>
+	<li><img src="https://files.catbox.moe/qmwlnh.png"></li>
+	<li><img src="https://files.catbox.moe/k5w14w.png"></li>
+	<li><img src="https://files.catbox.moe/9mmoe5.png"></li>
+	<li><img src="https://files.catbox.moe/ww0gtt.png"></li>
 </ul>
 
 <h3 id="4216-services-documentation-evidence-for-sprint-review">4.2.1.6. Services Documentation Evidence for Sprint Review</h3>
